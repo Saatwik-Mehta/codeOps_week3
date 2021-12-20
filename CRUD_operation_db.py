@@ -1,7 +1,8 @@
 import logging
 from mysql import connector
 
-logging.basicConfig(filename='CRUD_operation.log', level=logging.INFO)
+logging.basicConfig(filename='CRUD_operation.log', level=logging.INFO, format='%(asctime)s:%(levelname)s:%('
+                                                                              'message)s')
 
 
 def view_db_data(db_name: str = None, db_table: str = None, filter_data: dict = None):
@@ -49,7 +50,6 @@ def view_db_data(db_name: str = None, db_table: str = None, filter_data: dict = 
                     cursor.execute('SELECT * FROM {}.{}'.format(db_name, db_table))
                 columns = cursor.column_names
                 db_data = cursor.fetchall()
-                conn.close()
 
                 html_data += """<table><tr>"""
                 for i in range(len(columns)):
@@ -67,4 +67,83 @@ def view_db_data(db_name: str = None, db_table: str = None, filter_data: dict = 
         logging.error('%s: %s', prog_err.__class__.__name__, prog_err)
     except connector.Error as err:
         logging.error('%s: %s', err.__class__.__name__, err)
+    finally:
+        conn.close()
+
+
+def delete_db_data(db_name: str = None, db_table: str = None, expression=None):
+    """
+
+    :param db_name:
+    :param db_table:
+    :param expression:
+    :return:
+    """
+    try:
+        if db_name is not None and db_table is not None:
+            conn = connector.connect(host='localhost',
+                                     user='root',
+                                     password='saatwik')
+            if conn.is_connected():
+                cursor = conn.cursor()
+                if expression is not None and len(expression):
+
+                    if expression[1].isdigit():
+                        cursor.execute(f'DELETE FROM {db_name}.{db_table} WHERE {expression[0]}={expression[1]}')
+                    else:
+                        cursor.execute(f'DELETE FROM {db_name}.{db_table} WHERE {expression[0]}="{expression[1]}"')
+                    conn.commit()
+                else:
+                    logging.warning('expression value is: %s', expression)
+            else:
+                logging.warning("cannot make the connection with Mysql")
+    except connector.ProgrammingError as prog_err:
+        logging.error('%s: %s', prog_err.__class__.__name__, prog_err)
+    except connector.Error as err:
+        logging.error('%s: %s', err.__class__.__name__, err)
+    finally:
+        conn.close()
+
+
+def update_db_data(db_name: str = None, db_table: str = None, set_value=None, target_exp=None):
+    """
+
+    :param db_name:
+    :param db_table:
+    :param set_value:
+    :param target_exp:
+    :return:
+    """
+    try:
+        if db_name is not None and db_table is not None:
+            conn = connector.connect(host='localhost',
+                                     user='root',
+                                     password='saatwik')
+            if conn.is_connected():
+                cursor = conn.cursor()
+                if set_value is not None and len(set_value) \
+                        and target_exp is not None and len(target_exp):
+                    if set_value[1].isdigit() and target_exp[1].isdigit():
+                        cursor.execute(f"UPDATE {db_name}.{db_table} SET {set_value[0]}={set_value[1]} "
+                                       f"WHERE {target_exp[0]}={target_exp[1]}")
+
+                    elif set_value[1].isdigit():
+                        cursor.execute(f'UPDATE {db_name}.{db_table} SET {set_value[0]}={set_value[1]} '
+                                       f'WHERE {target_exp[0]}="{target_exp[1]}"')
+
+                    elif target_exp[1].isdigit():
+                        cursor.execute(f'UPDATE {db_name}.{db_table} SET {set_value[0]}="{set_value[1]}" '
+                                       f'WHERE {target_exp[0]}={target_exp[1]}')
+
+                    else:
+                        cursor.execute(f'UPDATE {db_name}.{db_table} SET {set_value[0]}="{set_value[1]}" '
+                                       f'WHERE {target_exp[0]}="{target_exp[1]}"')
+                    conn.commit()
+
+    except connector.ProgrammingError as prog_err:
+        logging.error('%s: %s', prog_err.__class__.__name__, prog_err)
+    except connector.Error as err:
+        logging.error('%s: %s', err.__class__.__name__, err)
+    finally:
+        conn.close()
 
