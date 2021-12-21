@@ -65,6 +65,7 @@ def view_db_data(db_name: str = None, db_table: str = None, filter_data: dict = 
         return f"Either DataBase {db_name} or Table {db_table} doesn't exist!"
     except connector.ProgrammingError as prog_err:
         logging.error('%s: %s', prog_err.__class__.__name__, prog_err)
+        return prog_err.errno, prog_err.msg
     except connector.Error as err:
         logging.error('%s: %s', err.__class__.__name__, err)
     finally:
@@ -93,12 +94,14 @@ def delete_db_data(db_name: str = None, db_table: str = None, expression=None):
                     else:
                         cursor.execute(f'DELETE FROM {db_name}.{db_table} WHERE {expression[0]}="{expression[1]}"')
                     conn.commit()
+                    return 'Deleted successfully'
                 else:
                     logging.warning('expression value is: %s', expression)
             else:
                 logging.warning("cannot make the connection with Mysql")
     except connector.ProgrammingError as prog_err:
         logging.error('%s: %s', prog_err.__class__.__name__, prog_err)
+        return prog_err.errno, prog_err.msg
     except connector.Error as err:
         logging.error('%s: %s', err.__class__.__name__, err)
     finally:
@@ -142,8 +145,37 @@ def update_db_data(db_name: str = None, db_table: str = None, set_value=None, ta
 
     except connector.ProgrammingError as prog_err:
         logging.error('%s: %s', prog_err.__class__.__name__, prog_err)
+
     except connector.Error as err:
         logging.error('%s: %s', err.__class__.__name__, err)
     finally:
         conn.close()
 
+
+def create_db_data(db_name: str = None, db_table: str = None, row_values: dict = None):
+    """
+
+    :param db_name:
+    :param db_table:
+    :param row_values:
+    :return:
+    """
+
+    try:
+        if db_name is not None and db_table is not None:
+            conn = connector.connect(host='localhost',
+                                     user='root',
+                                     password='saatwik')
+            if conn.is_connected():
+                cursor = conn.cursor(buffered=True)
+                cursor.execute(f'SELECT * FROM {db_name}.{db_table}')
+                db_columns = cursor.column_names
+                values = [row_values[col] for col in db_columns]
+                cursor.execute(f'INSERT INTO {db_name}.{db_table} VALUES {tuple(values)}')
+                conn.commit()
+    except connector.ProgrammingError as prog_err:
+        logging.error('%s: %s', prog_err.__class__.__name__, prog_err)
+    except connector.Error as err:
+        logging.error('%s: %s', err.__class__.__name__, err)
+    finally:
+        conn.close()

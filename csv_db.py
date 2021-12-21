@@ -3,7 +3,8 @@ import os.path
 from mysql import connector
 import pandas as pd
 
-logging.basicConfig(filename='CRUD_operation.log', level=logging.INFO)
+logging.basicConfig(filename='CRUD_operation.log', level=logging.INFO, format='%(asctime)s:%(levelname)s:%('
+                                                                              'message)s')
 
 PYTHON_TO_SQL_TYPE = {'string': 'TEXT',
                       'floating': 'FLOAT',
