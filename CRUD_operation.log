@@ -1,0 +1,93 @@
+ERROR:root:ProgrammingError: 1054 (42S22): Unknown column 'r_score' in 'field list'
+ERROR:root:ProgrammingError: 1054 (42S22): Unknown column 'r_score' in 'field list'
+ERROR:root:ProgrammingError: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM fileupload.uploadfile_csv' at line 1
+ERROR:root:ProgrammingError: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM fileupload.uploadfile_csv' at line 1
+ERROR:root:InterfaceError: No result set to fetch from
+ERROR:root:InterfaceError: No result set to fetch from
+ERROR:root:ProgrammingError: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ',release_date>=1992' at line 1
+ERROR:root:ProgrammingError: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ',release_date>1992' at line 1
+ERROR:root:ProgrammingError: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '['id'] FROM fileupload.uploadfile_csv' at line 1
+ERROR:root:ProgrammingError: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '['id'] FROM fileupload.uploadfile_csv' at line 1
+ERROR:root:TypeError:a bytes-like object is required, not 'str'
+ERROR:root:TypeError:a bytes-like object is required, not 'str'
+ERROR:root:ProgrammingError: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM fileupload.uploadfile_csv' at line 1
+ERROR:root:ProgrammingError: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM fileupload.uploadfile_csv' at line 1
+ERROR:root:ProgrammingError: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM fileupload.uploadfile_csv' at line 1
+ERROR:root:ProgrammingError: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM fileupload.uploadfile_csv' at line 1
+ERROR:root:TypeError:'NoneType' object is not subscriptable
+ERROR:root:TypeError:'NoneType' object is not subscriptable
+ERROR:root:Type error occured: TypeError:'NoneType' object is not subscriptable
+ERROR:root:Type error occured: TypeError:'NoneType' object is not subscriptable
+ERROR:root:Type error occured: TypeError:'NoneType' object is not subscriptable
+ERROR:root:Type error occured: TypeError:'NoneType' object is not subscriptable
+ERROR:root:Type error occured: TypeError:'NoneType' object is not subscriptable
+ERROR:root:Type error occured: TypeError:'NoneType' object is not subscriptable
+ERROR:root:Type error occured: TypeError:'NoneType' object is not subscriptable
+ERROR:root:Type error occured: TypeError:'NoneType' object is not subscriptable
+ERROR:root:Type error occured: TypeError:'NoneType' object is not subscriptable
+2021-12-20 14:53:08,956:ERROR:AttributeError:'CMySQLCursor' object has no attribute 'commit'
+2021-12-20 15:03:02,876:ERROR:ProgrammingError: 1054 (42S22): Unknown column 'release_data' in 'where clause'
+2021-12-20 16:38:04,167:ERROR:ProgrammingError: 1054 (42S22): Unknown column 'dtr' in 'where clause'
+2021-12-20 21:50:18,060:ERROR:ProgrammingError: 1146 (42S02): Table 'fileupload.uploadfile' doesn't exist
+2021-12-20 21:50:44,366:ERROR:ProgrammingError: 1146 (42S02): Table 'fileupload.uploadfile' doesn't exist
+2021-12-20 21:50:53,864:ERROR:ProgrammingError: 1146 (42S02): Table 'fileupload.uploadfile' doesn't exist
+2021-12-20 22:47:13,706:ERROR:InternalError: Unread result found
+2021-12-20 22:54:59,146:ERROR:InternalError: Unread result found
+2021-12-20 22:58:08,358:ERROR:InternalError: Unread result found
+2021-12-21 00:30:22,386:ERROR:ProgrammingError: 1054 (42S22): Unknown column 'dtr' in 'where clause'
+2021-12-21 00:35:31,720:ERROR:ProgrammingError: 1054 (42S22): Unknown column 'dtr' in 'where clause' + 1054
+2021-12-21 00:48:13,469:ERROR:ProgrammingError: 1054 (42S22): Unknown column 'dtr' in 'where clause' + 1054
+2021-12-21 00:58:18,012:ERROR:ProgrammingError: 1054 (42S22): Unknown column 'dtr' in 'where clause' + 1054
+2021-12-21 00:59:55,619:ERROR:IndexError:list index out of range
+2021-12-21 01:07:38,748:ERROR:IndexError: list index out of range
+2021-12-21 08:11:02,172:ERROR:ProgrammingError: 1049 (42000): Unknown database 'fileupoad'
+2021-12-21 08:11:24,852:ERROR:ProgrammingError: 1049 (42000): Unknown database 'fileupoad'
+2021-12-21 08:12:05,316:ERROR:ProgrammingError: 1049 (42000): Unknown database 'fileupoad'
+2021-12-21 08:19:48,331:ERROR:IndexError: list index out of range
+2021-12-21 08:20:20,086:ERROR:ProgrammingError: 1054 (42S22): Unknown column 'dtr' in 'where clause' + 1054
+2021-12-21 08:23:35,328:ERROR:ProgrammingError: 1054 (42S22): Unknown column 'dtr' in 'where clause' + 1054
+2021-12-21 08:29:49,098:ERROR:ProgrammingError: 1054 (42S22): Unknown column 'dtr' in 'where clause' + 1054
+2021-12-21 08:40:12,514:ERROR:ProgrammingError: 1054 (42S22): Unknown column 'dtr' in 'where clause' + 1054
+2021-12-21 08:41:30,575:ERROR:ProgrammingError: 1054 (42S22): Unknown column 'dtr' in 'where clause' + 1054
+2021-12-21 08:50:49,229:ERROR:ProgrammingError: 1054 (42S22): Unknown column 'dtr' in 'where clause' + 1054
+2021-12-21 09:21:11,725:ERROR:ProgrammingError: 1054 (42S22): Unknown column 'dtr' in 'where clause'
+2021-12-21 09:29:09,290:ERROR:ProgrammingError: 1054 (42S22): Unknown column 'dtr' in 'where clause'
+2021-12-21 09:29:09,290:ERROR:Type error occured: TypeError:'type' object is not subscriptable
+2021-12-21 09:29:09,617:ERROR:ProgrammingError: 1054 (42S22): Unknown column 'dtr' in 'where clause'
+2021-12-21 09:29:09,617:ERROR:Type error occured: TypeError:'type' object is not subscriptable
+2021-12-21 09:30:22,043:ERROR:ProgrammingError: 1054 (42S22): Unknown column 'dtr' in 'where clause'
+2021-12-21 09:30:22,045:ERROR:AttributeError:'ProgrammingError' object has no attribute 'replace'
+2021-12-21 09:31:27,030:ERROR:ProgrammingError: 1054 (42S22): Unknown column 'dtr' in 'where clause'
+2021-12-21 09:32:41,163:ERROR:ProgrammingError: 1054 (42S22): Unknown column 'dtr' in 'where clause'
+2021-12-21 09:33:47,218:ERROR:ProgrammingError: 1054 (42S22): Unknown column 'dtr' in 'where clause'
+2021-12-21 09:40:45,460:ERROR:ProgrammingError: 1054 (42S22): Unknown column 'ids' in 'where clause'
+2021-12-21 09:41:04,439:ERROR:ProgrammingError: 1054 (42S22): Unknown column 'ids' in 'field list'
+2021-12-21 09:46:01,365:ERROR:ProgrammingError: 1054 (42S22): Unknown column 'ids' in 'field list'
+2021-12-21 09:46:28,553:ERROR:ProgrammingError: 1054 (42S22): Unknown column 'ids' in 'field list'
+2021-12-21 09:46:47,044:ERROR:ProgrammingError: 1054 (42S22): Unknown column 'ids' in 'field list'
+2021-12-21 09:47:57,348:ERROR:ProgrammingError: 1054 (42S22): Unknown column 'ids' in 'field list'
+2021-12-21 09:50:11,128:ERROR:ProgrammingError: 1054 (42S22): Unknown column 'ids' in 'field list'
+2021-12-21 09:53:51,348:ERROR:InternalError: Unread result found
+2021-12-21 09:53:57,737:ERROR:InternalError: Unread result found
+2021-12-21 09:55:12,685:ERROR:ProgrammingError: 1054 (42S22): Unknown column 'ids' in 'field list'
+2021-12-21 10:44:26,800:ERROR:ProgrammingError: 1054 (42S22): Unknown column 'dtr' in 'where clause'
+2021-12-21 10:45:50,458:ERROR:ProgrammingError: 1054 (42S22): Unknown column 'ids' in 'field list'
+2021-12-26 12:22:49,151:ERROR:ProgrammingError: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'PRIMARY KEY,title TEXT,original_title TEXT,original_title_romanised TEXT,image T' at line 1
+2021-12-26 12:24:13,106:ERROR:ProgrammingError: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'PRIMARY KEY,title TEXT,original_title TEXT,original_title_romanised TEXT,image T' at line 1
+2021-12-26 12:44:37,384:ERROR:ProgrammingError: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'varch]ar(50) PRIMARY KEY,title TEXT,original_title TEXT,original_title_romanised' at line 1
+2021-12-26 12:46:45,352:ERROR:ProgrammingError: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'varch]ar(50) PRIMARY KEY,title TEXT,original_title TEXT,original_title_romanised' at line 1
+2021-12-26 12:46:45,353:ERROR:arguments value are 
+filename:uploadFile_csv.csv,
+primary_key_field:id,
+pk_field_dtype:varch]ar(50) 
+2021-12-26 12:48:31,014:ERROR:DatabaseError: 1366 (HY000): Incorrect integer value: 'jahr' for column 'release_date' at row 1
+2021-12-26 12:49:56,933:ERROR:DatabaseError: 1366 (HY000): Incorrect integer value: 'wjkjefhfuqerurifh' for column 'release_date' at row 1
+2021-12-26 12:51:29,713:ERROR:DatabaseError: 1366 (HY000): Incorrect integer value: 'ewrgw' for column 'release_date' at row 1
+2021-12-26 12:53:31,624:ERROR:DatabaseError: 1366 (HY000): Incorrect integer value: 'this_banner' for column 'release_date' at row 1
+2021-12-26 12:56:54,058:ERROR:DatabaseError: 1366 (HY000): Incorrect integer value: 'this-id-1234' for column 'release_date' at row 1
+2021-12-26 13:03:36,074:ERROR:ProgrammingError: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '['id', 'people', 'description', 'rt_score', 'title', 'original_title_romanised',' at line 1
+2021-12-26 13:06:19,021:ERROR:ProgrammingError: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''i', 'd', ',', 'u', 'r', 'l', ',', 'r', 't', '_', 's', 'c', 'o', 'r', 'e', ',', ' at line 1
+2021-12-26 13:09:05,221:ERROR:ProgrammingError: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''d', 'e', 's', 'c', 'r', 'i', 'p', 't', 'i', 'o', 'n', ',', 'p', 'e', 'o', 'p', ' at line 1
+2021-12-26 13:13:00,959:ERROR:DatabaseError: 1366 (HY000): Incorrect integer value: '' for column 'rt_score' at row 1
+2021-12-26 13:13:16,747:ERROR:DatabaseError: 1366 (HY000): Incorrect integer value: '' for column 'rt_score' at row 1
+2021-12-26 13:14:53,190:ERROR:IntegrityError: 1062 (23000): Duplicate entry 'this-id-1234' for key 'uploadfile_csv.PRIMARY'

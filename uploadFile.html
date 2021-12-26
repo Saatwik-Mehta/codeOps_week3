@@ -1,0 +1,25 @@
+<!doctype html>
+<html>
+<body>
+<form method="post" name="myForm"  onsubmit="return validateForm()" enctype="multipart/form-data" action = "uploadFile.py">
+  <input type="file" id="myFile" name="filename">
+  <input type="submit">
+</form>
+</body>
+<script>
+function validateForm() {
+  var x = document.forms["myForm"]["filename"].value;
+  var allowedExtensions = /(\.csv)$/i;
+  if (x == "" || x == null) {
+    alert("Name must be filled out");
+    return false;
+  }
+  if (!x.match(allowedExtensions)){
+  alert('Please upload file having extension .csv only.');
+        document.forms["myForm"]["filename"].value='';
+        return false;
+        }
+ }
+</script>
+
+</html>

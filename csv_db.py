@@ -41,10 +41,12 @@ def csv_to_db(filename=None, primary_key_field: str = None, pk_field_dtype=None)
             column_with_dtype = [(i[0] + " " + i[1])
                                  for i in zip(csv_dataframe[csv_dataframe.columns]
                                               , mysql_dtype_column)]
-            if primary_key_field is not None:
-                for i in range(len(column_inf_dtype)):
-                    if primary_key_field in column_inf_dtype[i]:
-                        column_inf_dtype[i] = " NOT NULL PRIMARY KEY"
+            if primary_key_field is not None and primary_key_field != ''\
+                    and pk_field_dtype is not None and pk_field_dtype != ''\
+                    and primary_key_field in list(csv_dataframe.columns):
+                for i in range(len(column_with_dtype)):
+                    if primary_key_field in column_with_dtype[i]:
+                        column_with_dtype[i] = "{} {} PRIMARY KEY".format(primary_key_field, pk_field_dtype)
                         break
 
             conn = connector.connect(host='localhost',
@@ -65,10 +67,16 @@ def csv_to_db(filename=None, primary_key_field: str = None, pk_field_dtype=None)
 
     except connector.ProgrammingError as pro_err:
         logging.error("%s: %s", pro_err.__class__.__name__, pro_err)
+        logging.error("arguments value are \nfilename:%s,"
+                      "\nprimary_key_field:%s,\npk_field_dtype:%s "
+                      , filename, primary_key_field, pk_field_dtype)
     except connector.IntegrityError as integrity_err:
         logging.error("Error occured %s: %s",
                       integrity_err.__class__.__name__, integrity_err)
     except ValueError as val_err:
         logging.error("%s: %s", val_err.__class__.__name__, val_err)
+        logging.error("arguments value are \nfilename:%s,"
+                      "\nprimary_key_field:%s,\npk_field_dtype:%s "
+                      , filename, primary_key_field, pk_field_dtype)
     except Exception as exc:
         logging.error("%s: %s", exc.__class__.__name__, exc)

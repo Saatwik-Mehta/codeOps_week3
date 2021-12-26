@@ -168,10 +168,11 @@ def create_db_data(db_name: str = None, db_table: str = None, row_values: dict =
                                      password='saatwik')
             if conn.is_connected():
                 cursor = conn.cursor(buffered=True)
-                cursor.execute(f'SELECT * FROM {db_name}.{db_table}')
-                db_columns = cursor.column_names
-                values = [row_values[col] for col in db_columns]
-                cursor.execute(f'INSERT INTO {db_name}.{db_table} VALUES {tuple(values)}')
+                columns = [col for col in row_values.keys()]
+                columns = ','.join(columns)
+
+                values = [row_values[col] for col in row_values]
+                cursor.execute(f'INSERT INTO {db_name}.{db_table} ({columns}) VALUES {tuple(values)}')
                 conn.commit()
     except connector.ProgrammingError as prog_err:
         logging.error('%s: %s', prog_err.__class__.__name__, prog_err)
