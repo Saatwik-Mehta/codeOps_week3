@@ -54,8 +54,10 @@ class HttpRequestToResponse(BaseHTTPRequestHandler):
                 output += '<h3>upload your .csv file!</h3>'
                 output += '<form method="post" name="myForm" onsubmit="return validateForm()" \
                             enctype="multipart/form-data" action = "/upload"> \
-                            <input type="file" id="myFile" name="filename">\
-                            <input type="submit"></form>' \
+                            <input type="file" id="myFile" name="filename">' \
+                          '<br>Primary key: <input type="text" id="mykey" name="primary_key">' \
+                          '<br>Field data_type: <input type="text" id="p_key_d_type" name="pk_field_datatype">\
+                            <br><input type="submit"></form>' \
                           '<a href = "/view" >View your uploaded data</a>' \
                           '</body>'
                 output += """
@@ -159,12 +161,15 @@ class HttpRequestToResponse(BaseHTTPRequestHandler):
                     fields = cgi.parse_multipart(self.rfile, pdict)
                     filename = fields.get('filename')[0]
                     filename = filename.decode("utf-8-sig")
-
                     with open(self.FILE, mode="w", encoding="utf-8-sig") as file:
                         for data in filename.split('\r\r'):
                             file.write("%s" % data)
-
-                file_db(filename=self.FILE)
+                    if 'pk_field_datatype' in fields and 'primary_key' in fields:
+                        file_db(filename=self.FILE,
+                                pk_field_dtype=fields.get('pk_field_datatype')[0],
+                                primary_key_field=fields.get('primary_key')[0])
+                    else:
+                        file_db(filename=self.FILE)
                 self.send_response(301)
                 self.send_header('content-type', 'text-html')
 
