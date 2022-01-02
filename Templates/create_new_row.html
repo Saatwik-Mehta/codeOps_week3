@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CREATE ROW</title>
+</head>
+<body>
+    <form method="POST" action="/add" enctype="multipart/form-data">
+        {% for col in db_column %}
+            {{col}}: <input type="text" name="{{col}}" id="my{{col}}"><br><br>
+        {% endfor %}
+        <input type="submit">
+    </form>
+</body>
+</html>

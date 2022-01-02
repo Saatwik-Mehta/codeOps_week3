@@ -1,0 +1,329 @@
+﻿<html> <head><title>HTML Pandas Dataframe with CSS</title>
+        </head> <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+        integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn"
+        crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="df_style.css"/> <script
+        src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script> <script
+        src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script> <script
+        src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js"
+        integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2"
+        crossorigin="anonymous"></script> <body> <div class="table-responsive-lg">
+        <table border="1" class="dataframe table table-striped table-bordered table-hover table-sm">
+  <thead>
+    <tr style="text-align: right;">
+      <th>id</th>
+      <th>title</th>
+      <th>original_title</th>
+      <th>image</th>
+      <th>director</th>
+      <th>producer</th>
+      <th>release_date</th>
+      <th>running_time</th>
+      <th>people</th>
+      <th>species</th>
+      <th>locations</th>
+      <th>vehicles</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>2baf70d1-42bb-4437-b551-e5fed5a87abe</td>
+      <td>Castle in the Sky</td>
+      <td>天空の城ラピュタ</td>
+      <td><img src="https://image.tmdb.org/t/p/w600_and_h900_bestv2/npOnzAbLh6VOIu3naU5QaEcTepo.jpg" width="150" height="150" class="img-fluid rounded" ></td>
+      <td>Hayao Miyazaki</td>
+      <td>Isao Takahata</td>
+      <td>1986</td>
+      <td>124</td>
+      <td>Lusheeta Toel Ul Laputa,Pazu,Captain Dola,Colonel Muska,General Mouro,Uncle Pom,Laputian Robot</td>
+      <td>Human</td>
+      <td>Gondoa,Pazu's Mines,Laputa,Tedis</td>
+      <td>Air Destroyer Goliath</td>
+    </tr>
+    <tr>
+      <td>12cfb892-aac0-4c5b-94af-521852e46d6a</td>
+      <td>Grave of the Fireflies</td>
+      <td>火垂るの墓</td>
+      <td><img src="https://image.tmdb.org/t/p/w600_and_h900_bestv2/qG3RYlIVpTYclR9TYIsy8p7m7AT.jpg" width="150" height="150" class="img-fluid rounded" ></td>
+      <td>Isao Takahata</td>
+      <td>Toru Hara</td>
+      <td>1988</td>
+      <td>89</td>
+      <td></td>
+      <td>Human</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>58611129-2dbc-4a81-a72f-77ddfc1b1b49</td>
+      <td>My Neighbor Totoro</td>
+      <td>となりのトトロ</td>
+      <td><img src="https://image.tmdb.org/t/p/w600_and_h900_bestv2/rtGDOeG9LzoerkDGZF9dnVeLppL.jpg" width="150" height="150" class="img-fluid rounded" ></td>
+      <td>Hayao Miyazaki</td>
+      <td>Hayao Miyazaki</td>
+      <td>1988</td>
+      <td>86</td>
+      <td>Satsuki Kusakabe,Mei Kusakabe,Tatsuo Kusakabe,Yasuko Kusakabe,Totoro,Chu Totoro,Chibi Totoro,Catbus,Granny,Kanta Ōgaki</td>
+      <td>Human,Cat,Totoro</td>
+      <td>Hospital,Matsugo,Satsuki's School House</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>ea660b10-85c4-4ae3-8a5f-41cea3648e3e</td>
+      <td>Kiki's Delivery Service</td>
+      <td>魔女の宅急便</td>
+      <td><img src="https://image.tmdb.org/t/p/w600_and_h900_bestv2/7nO5DUMnGUuXrA4r2h6ESOKQRrx.jpg" width="150" height="150" class="img-fluid rounded" ></td>
+      <td>Hayao Miyazaki</td>
+      <td>Hayao Miyazaki</td>
+      <td>1989</td>
+      <td>102</td>
+      <td>Kiki,Jiji,Osono,Ursula,Tombo,Madame</td>
+      <td>Human,Cat</td>
+      <td>Ursula's Log Cabin,Koriko,Karikiya</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>4e236f34-b981-41c3-8c65-f8c9000b94e7</td>
+      <td>Only Yesterday</td>
+      <td>おもひでぽろぽろ</td>
+      <td><img src="https://image.tmdb.org/t/p/w600_and_h900_bestv2/xjJU6rwzLX7Jk8HFQfVW6H5guMC.jpg" width="150" height="150" class="img-fluid rounded" ></td>
+      <td>Isao Takahata</td>
+      <td>Toshio Suzuki</td>
+      <td>1991</td>
+      <td>118</td>
+      <td></td>
+      <td>Human</td>
+      <td>Taeko's House</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>ebbb6b7c-945c-41ee-a792-de0e43191bd8</td>
+      <td>Porco Rosso</td>
+      <td>紅の豚</td>
+      <td><img src="https://image.tmdb.org/t/p/w600_and_h900_bestv2/byKAndF6KQSDpGxp1mTr23jPbYp.jpg" width="150" height="150" class="img-fluid rounded" ></td>
+      <td>Hayao Miyazaki</td>
+      <td>Toshio Suzuki</td>
+      <td>1992</td>
+      <td>93</td>
+      <td>Porco Rosso</td>
+      <td>Human</td>
+      <td>Piccolo S.P.A.</td>
+      <td>Red Wing</td>
+    </tr>
+    <tr>
+      <td>1b67aa9a-2e4a-45af-ac98-64d6ad15b16c</td>
+      <td>Pom Poko</td>
+      <td>平成狸合戦ぽんぽこ</td>
+      <td><img src="https://image.tmdb.org/t/p/w600_and_h900_bestv2/kowo9E1e1JcWLXj9cCvAOFZcy5n.jpg" width="150" height="150" class="img-fluid rounded" ></td>
+      <td>Isao Takahata</td>
+      <td>Toshio Suzuki</td>
+      <td>1994</td>
+      <td>119</td>
+      <td></td>
+      <td>Human</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>ff24da26-a969-4f0e-ba1e-a122ead6c6e3</td>
+      <td>Whisper of the Heart</td>
+      <td>耳をすませば</td>
+      <td><img src="https://image.tmdb.org/t/p/w600_and_h900_bestv2/5E3Hvbu0bg38ouYf6chGftVGqZ7.jpg" width="150" height="150" class="img-fluid rounded" ></td>
+      <td>Yoshifumi Kondō</td>
+      <td>Toshio Suzuki</td>
+      <td>1995</td>
+      <td>111</td>
+      <td>Renaldo Moon aka Moon aka Muta,Baron Humbert von Gikkingen</td>
+      <td>Human</td>
+      <td>Shizuku's Apartment</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>0440483e-ca0e-4120-8c50-4c8cd9b965d6</td>
+      <td>Princess Mononoke</td>
+      <td>もののけ姫</td>
+      <td><img src="https://image.tmdb.org/t/p/w600_and_h900_bestv2/jHWmNr7m544fJ8eItsfNk8fs2Ed.jpg" width="150" height="150" class="img-fluid rounded" ></td>
+      <td>Hayao Miyazaki</td>
+      <td>Toshio Suzuki</td>
+      <td>1997</td>
+      <td>134</td>
+      <td>Ashitaka,San,Yakul,Shishigami,Moro,Eboshi,Jigo,Kohroku,Gonza,Hii-sama</td>
+      <td>Human,Deer,God</td>
+      <td>Irontown,Gutiokipanja,Forest</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>45204234-adfd-45cb-a505-a8e7a676b114</td>
+      <td>My Neighbors the Yamadas</td>
+      <td>ホーホケキョ となりの山田くん</td>
+      <td><img src="https://image.tmdb.org/t/p/w600_and_h900_bestv2/wTGuHmMIBBgKakY80J1D52VvQKI.jpg" width="150" height="150" class="img-fluid rounded" ></td>
+      <td>Isao Takahata</td>
+      <td>Toshio Suzuki</td>
+      <td>1999</td>
+      <td>104</td>
+      <td></td>
+      <td>Human</td>
+      <td>Bamboo Forest</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>dc2e6bd1-8156-4886-adff-b39e6043af0c</td>
+      <td>Spirited Away</td>
+      <td>千と千尋の神隠し</td>
+      <td><img src="https://image.tmdb.org/t/p/w600_and_h900_bestv2/39wmItIWsg5sZMyRUHLkWBcuVCM.jpg" width="150" height="150" class="img-fluid rounded" ></td>
+      <td>Hayao Miyazaki</td>
+      <td>Toshio Suzuki</td>
+      <td>2001</td>
+      <td>124</td>
+      <td>Chihiro Ogino</td>
+      <td>Human</td>
+      <td>Zeniba's Cottage,Bathhouse</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>90b72513-afd4-4570-84de-a56c312fdf81</td>
+      <td>The Cat Returns</td>
+      <td>猫の恩返し</td>
+      <td><img src="https://image.tmdb.org/t/p/w600_and_h900_bestv2/avPMO5cnaGHgLaNiAIhy33WoQLm.jpg" width="150" height="150" class="img-fluid rounded" ></td>
+      <td>Hiroyuki Morita</td>
+      <td>Toshio Suzuki</td>
+      <td>2002</td>
+      <td>75</td>
+      <td>Renaldo Moon aka Moon aka Muta,Cat King,Yuki,Haru,Baron Humbert von Gikkingen,Natori</td>
+      <td>Human</td>
+      <td>The Cat Kingdom</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>cd3d059c-09f4-4ff3-8d63-bc765a5184fa</td>
+      <td>Howl's Moving Castle</td>
+      <td>ハウルの動く城</td>
+      <td><img src="https://image.tmdb.org/t/p/w600_and_h900_bestv2/TkTPELv4kC3u1lkloush8skOjE.jpg" width="150" height="150" class="img-fluid rounded" ></td>
+      <td>Hayao Miyazaki</td>
+      <td>Toshio Suzuki</td>
+      <td>2004</td>
+      <td>119</td>
+      <td></td>
+      <td>Human</td>
+      <td>Ingary</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>112c1e67-726f-40b1-ac17-6974127bb9b9</td>
+      <td>Tales from Earthsea</td>
+      <td>ゲド戦記</td>
+      <td><img src="https://image.tmdb.org/t/p/w600_and_h900_bestv2/67yYwCPq7NbxSF6BIIXCMD34sY0.jpg" width="150" height="150" class="img-fluid rounded" ></td>
+      <td>Gorō Miyazaki</td>
+      <td>Toshio Suzuki</td>
+      <td>2006</td>
+      <td>116</td>
+      <td></td>
+      <td>Human</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>758bf02e-3122-46e0-884e-67cf83df1786</td>
+      <td>Ponyo</td>
+      <td>崖の上のポニョ</td>
+      <td><img src="https://image.tmdb.org/t/p/w600_and_h900_bestv2/mikKSEdk5kLhflWXbp4S5mmHsDo.jpg" width="150" height="150" class="img-fluid rounded" ></td>
+      <td>Hayao Miyazaki</td>
+      <td>Toshio Suzuki</td>
+      <td>2008</td>
+      <td>100</td>
+      <td>Sosuke</td>
+      <td>Human</td>
+      <td>Fujimoto's Underwater Harbor,Himawari Nursery School</td>
+      <td>Sosuke's Boat</td>
+    </tr>
+    <tr>
+      <td>2de9426b-914a-4a06-a3a0-5e6d9d3886f6</td>
+      <td>Arrietty</td>
+      <td>借りぐらしのアリエッティ</td>
+      <td><img src="https://image.tmdb.org/t/p/w600_and_h900_bestv2/oc2OB2KDmSRDMelKEAA1n4YRQL0.jpg" width="150" height="150" class="img-fluid rounded" ></td>
+      <td>Hiromasa Yonebayashi</td>
+      <td>Toshio Suzuki</td>
+      <td>2010</td>
+      <td>94</td>
+      <td>Niya</td>
+      <td>Human</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>45db04e4-304a-4933-9823-33f389e8d74d</td>
+      <td>From Up on Poppy Hill</td>
+      <td>コクリコ坂から</td>
+      <td><img src="https://image.tmdb.org/t/p/w600_and_h900_bestv2/rRLYX4RZIyloHSJwvZKAhphAjiB.jpg" width="150" height="150" class="img-fluid rounded" ></td>
+      <td>Gorō Miyazaki</td>
+      <td>Toshio Suzuki</td>
+      <td>2011</td>
+      <td>91</td>
+      <td></td>
+      <td>Human</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>67405111-37a5-438f-81cc-4666af60c800</td>
+      <td>The Wind Rises</td>
+      <td>風立ちぬ</td>
+      <td><img src="https://image.tmdb.org/t/p/w600_and_h900_bestv2/jfwSexzlIzaOgxP9A8bTA6t8YYb.jpg" width="150" height="150" class="img-fluid rounded" ></td>
+      <td>Hayao Miyazaki</td>
+      <td>Toshio Suzuki</td>
+      <td>2013</td>
+      <td>126</td>
+      <td></td>
+      <td>Human</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>578ae244-7750-4d9f-867b-f3cd3d6fecf4</td>
+      <td>The Tale of the Princess Kaguya</td>
+      <td>かぐや姫の物語</td>
+      <td><img src="https://image.tmdb.org/t/p/w600_and_h900_bestv2/mWRQNlWXYYfd2z4FRm99MsgHgiA.jpg" width="150" height="150" class="img-fluid rounded" ></td>
+      <td>Isao Takahata</td>
+      <td>Yoshiaki Nishimura</td>
+      <td>2013</td>
+      <td>137</td>
+      <td></td>
+      <td>Human</td>
+      <td>Bamboo Forest</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>5fdfb320-2a02-49a7-94ff-5ca418cae602</td>
+      <td>When Marnie Was There</td>
+      <td>思い出のマーニー</td>
+      <td><img src="https://image.tmdb.org/t/p/w600_and_h900_bestv2/vug1dvDI1tSa60Z8qjCuUE7ntkO.jpg" width="150" height="150" class="img-fluid rounded" ></td>
+      <td>Hiromasa Yonebayashi</td>
+      <td>Yoshiaki Nishimura</td>
+      <td>2014</td>
+      <td>103</td>
+      <td></td>
+      <td>Human</td>
+      <td>The Marsh House</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>d868e6ec-c44a-405b-8fa6-f7f0f8cfb500</td>
+      <td>The Red Turtle</td>
+      <td>レッドタートル ある島の物語</td>
+      <td><img src="https://image.tmdb.org/t/p/w600_and_h900_bestv2/wOBU3SLjQ9358Km9YWYasPZyebp.jpg" width="150" height="150" class="img-fluid rounded" ></td>
+      <td>Michaël Dudok de Wit</td>
+      <td>Toshio Suzuki, Isao Takahata, Vincent Maraval, Pascal Caucheteux, Grégoire Sorlat</td>
+      <td>2016</td>
+      <td>80</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+  </tbody>
+</table> </div> </body> </html> 

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Upload File</title>
+</head>
+<body>
+<h3>upload your CSV file!</h3>
+<form method="post" name="myForm" onsubmit="return validateForm()" enctype="multipart/form-data" action = "/upload">
+    <input type="hidden" name="your_filename" id="id_your_filename">
+    <input type="file" id="myFile" name="filedata" onchange="return validateFileExt()">
+    <br>Primary key: <input type="text" id="mykey" name="primary_key">
+    <br>Field data_type: <input type="text"  id="p_key_d_type" name="pk_field_datatype">
+    <br><input type="submit"></form>
+    <a href = "/view" >View your uploaded data</a>
+</body>
+<script>
+    function validateFileExt(){
+         var fileInput =
+                document.getElementById('myFile');
+         var filePath = fileInput.value;
+         var allowedExtensions = /(\.csv)$/i;
+          if (!allowedExtensions.exec(filePath)) {
+                alert('Invalid file type');
+                fileInput.value = '';
+                return false;
+            }
+
+    }
+</script>
+<script>
+    function validateForm(){
+          var x = document.forms["myForm"]["filedata"].value;
+          var allowedExtensions = /(\.csv)$/i;
+           if (x == "" || x == null) {
+    alert("Name must be filled out");
+    return false;
+  }
+    }
+
+</script>
+</html>

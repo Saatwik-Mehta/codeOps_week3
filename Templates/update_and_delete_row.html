@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>View, Update and Delete</title>
+</head>
+<body>
+{{table}}
+<br>
+    <form method="post" enctype="multipart/form-data" action = "/view">
+        Columns: <input type="text" placeholder="Enter Columns" name="textfield" id="mytext">
+        <input type="submit">
+    </form>
+
+    <form method="post" enctype="multipart/form-data" action = "/view">
+        Delete row where: <input type="text" placeholder="Enter expression" name="expression_field" id="myexpression">
+        <input type="submit" >
+        <br>
+        <small>Only one expression will be evaluated</small>
+    </form>
+
+    <br>
+    <form method="post" enctype="multipart/form-data" action = "/view">
+        Edit row:
+        <input type="text" placeholder="set value" name="set_field" id="myset">
+        <input type="text" placeholder="target expression" name="target_field" id="mytarget">
+        <input type="submit" >
+        <br>
+        <small>Only one expression will be evaluated</small>
+    </form>
+    <a href="/upload">back to upload files</a><br>
+    <a href="/add">Add a new column</a>
+
+</body>
+</html>
