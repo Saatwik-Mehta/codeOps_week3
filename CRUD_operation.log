@@ -91,3 +91,587 @@ pk_field_dtype:varch]ar(50)
 2021-12-26 13:13:00,959:ERROR:DatabaseError: 1366 (HY000): Incorrect integer value: '' for column 'rt_score' at row 1
 2021-12-26 13:13:16,747:ERROR:DatabaseError: 1366 (HY000): Incorrect integer value: '' for column 'rt_score' at row 1
 2021-12-26 13:14:53,190:ERROR:IntegrityError: 1062 (23000): Duplicate entry 'this-id-1234' for key 'uploadfile_csv.PRIMARY'
+2021-12-29 14:16:04,323:ERROR:ProgrammingError: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'text,movie_banner,description,director,producer,release_date,running_time,rt_sco' at line 1
+2021-12-29 14:42:54,302:ERROR:ProgrammingError: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'text,movie_banner,description,director,producer,release_date,running_time,rt_sco' at line 1
+2021-12-29 14:43:05,108:ERROR:ProgrammingError: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'text,movie_banner,description,director,producer,release_date,running_time,rt_sco' at line 1
+2021-12-29 14:43:28,230:ERROR:ProgrammingError: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'text,movie_banner,description,director,producer,release_date,running_time,rt_sco' at line 1
+2021-12-29 14:55:17,983:ERROR:IntegrityError: 1062 (23000): Duplicate entry 'id_1' for key 'test_table.PRIMARY'
+2021-12-29 14:59:59,487:ERROR:IntegrityError: 1062 (23000): Duplicate entry 'id_1' for key 'test_table.PRIMARY'
+2021-12-29 15:00:19,412:ERROR:IntegrityError: 1062 (23000): Duplicate entry 'id_1' for key 'test_table.PRIMARY'
+2021-12-29 15:04:22,425:ERROR:IntegrityError: 1062 (23000): Duplicate entry 'id_1' for key 'test_table.PRIMARY'
+2021-12-29 15:05:31,217:ERROR:IntegrityError: 1062 (23000): Duplicate entry 'id_1' for key 'test_table.PRIMARY'
+2021-12-29 15:11:11,064:ERROR:IntegrityError: 1062 (23000): Duplicate entry 'id_1' for key 'test_table.PRIMARY'
+2021-12-29 15:15:39,524:ERROR:IntegrityError: 1062 (23000): Duplicate entry 'id_1' for key 'test_table.PRIMARY'
+2021-12-29 15:16:29,124:ERROR:IntegrityError: 1062 (23000): Duplicate entry 'id_1' for key 'test_table.PRIMARY'
+2021-12-29 15:17:36,187:ERROR:IntegrityError: 1062 (23000): Duplicate entry 'id_1' for key 'test_table.PRIMARY'
+2021-12-29 15:18:06,164:ERROR:IntegrityError: 1062 (23000): Duplicate entry 'id_1' for key 'test_table.PRIMARY'
+2021-12-29 15:19:58,628:ERROR:IntegrityError: 1062 (23000): Duplicate entry 'id_1' for key 'test_table.PRIMARY'
+2021-12-29 15:22:27,892:ERROR:IntegrityError: 1062 (23000): Duplicate entry 'id_1' for key 'test_table.PRIMARY'
+2021-12-29 15:24:02,650:ERROR:IntegrityError: 1062 (23000): Duplicate entry 'id_1' for key 'test_table.PRIMARY'
+2021-12-29 15:24:16,731:ERROR:IntegrityError: 1062 (23000): Duplicate entry 'id_1' for key 'test_table.PRIMARY'
+2021-12-29 15:31:25,460:ERROR:IntegrityError: 1062 (23000): Duplicate entry 'id_1' for key 'test_table.PRIMARY'
+2021-12-29 15:31:46,071:ERROR:IntegrityError: 1062 (23000): Duplicate entry 'id_1' for key 'test_table.PRIMARY'
+2021-12-29 15:31:59,612:ERROR:IntegrityError: 1062 (23000): Duplicate entry 'id_1' for key 'test_table.PRIMARY'
+2021-12-29 15:31:59,643:ERROR:IntegrityError: 1062 (23000): Duplicate entry 'id_1' for key 'test_table.PRIMARY'
+2021-12-29 15:33:15,139:ERROR:IntegrityError: 1062 (23000): Duplicate entry 'id_1' for key 'test_table.PRIMARY'
+2021-12-29 15:36:48,825:ERROR:IntegrityError: 1062 (23000): Duplicate entry 'id_1' for key 'test_table.PRIMARY'
+2021-12-29 15:36:48,856:ERROR:ProgrammingError: 1054 (42S22): Unknown column 'extra' in 'field list'
+2021-12-29 15:37:09,711:ERROR:IntegrityError: 1062 (23000): Duplicate entry 'id_1' for key 'test_table.PRIMARY'
+2021-12-29 15:37:09,788:ERROR:ProgrammingError: 1054 (42S22): Unknown column 'extra' in 'field list'
+2021-12-29 15:41:35,334:ERROR:ProgrammingError: 1054 (42S22): Unknown column 'i' in 'where clause'
+2021-12-29 15:42:11,992:ERROR:ProgrammingError: 1054 (42S22): Unknown column 'i' in 'where clause'
+2021-12-29 15:42:12,042:ERROR:IntegrityError: 1062 (23000): Duplicate entry 'id_1' for key 'test_table.PRIMARY'
+2021-12-29 15:42:12,072:ERROR:ProgrammingError: 1054 (42S22): Unknown column 'extra' in 'field list'
+2021-12-29 15:42:39,596:ERROR:ProgrammingError: 1054 (42S22): Unknown column 'i' in 'where clause'
+2021-12-29 15:43:16,264:ERROR:ProgrammingError: 1054 (42S22): Unknown column 'i' in 'where clause'
+2021-12-29 15:43:52,938:ERROR:IntegrityError: 1062 (23000): Duplicate entry 'id_1' for key 'test_table.PRIMARY'
+2021-12-29 15:43:52,969:ERROR:ProgrammingError: 1054 (42S22): Unknown column 'extra' in 'field list'
+2021-12-29 15:45:47,401:ERROR:ProgrammingError: 1054 (42S22): Unknown column 'i' in 'where clause'
+2021-12-29 15:45:47,462:ERROR:IntegrityError: 1062 (23000): Duplicate entry 'id_1' for key 'test_table.PRIMARY'
+2021-12-29 15:45:47,497:ERROR:ProgrammingError: 1054 (42S22): Unknown column 'extra' in 'field list'
+2021-12-29 15:46:32,017:ERROR:ProgrammingError: 1054 (42S22): Unknown column 'i' in 'where clause'
+2021-12-29 15:46:32,073:ERROR:IntegrityError: 1062 (23000): Duplicate entry 'id_1' for key 'test_table.PRIMARY'
+2021-12-29 15:46:32,106:ERROR:ProgrammingError: 1054 (42S22): Unknown column 'extra' in 'field list'
+2021-12-29 15:47:35,399:ERROR:ProgrammingError: 1054 (42S22): Unknown column 'i' in 'where clause'
+2021-12-29 15:47:35,461:ERROR:IntegrityError: 1062 (23000): Duplicate entry 'id_1' for key 'test_table.PRIMARY'
+2021-12-29 15:47:35,496:ERROR:ProgrammingError: 1054 (42S22): Unknown column 'extra' in 'field list'
+2021-12-29 15:48:33,664:ERROR:ProgrammingError: 1054 (42S22): Unknown column 'i' in 'where clause'
+2021-12-29 15:50:59,707:ERROR:IntegrityError: 1062 (23000): Duplicate entry 'id_1' for key 'test_table.PRIMARY'
+2021-12-29 15:50:59,737:ERROR:ProgrammingError: 1054 (42S22): Unknown column 'extra' in 'field list'
+2021-12-29 15:51:06,102:ERROR:ProgrammingError: 1054 (42S22): Unknown column 'i' in 'where clause'
+2021-12-29 15:51:06,153:ERROR:IntegrityError: 1062 (23000): Duplicate entry 'id_1' for key 'test_table.PRIMARY'
+2021-12-29 15:51:06,190:ERROR:ProgrammingError: 1054 (42S22): Unknown column 'extra' in 'field list'
+2021-12-29 15:54:22,156:ERROR:ProgrammingError: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '[="'"' at line 1
+2021-12-29 15:54:22,207:ERROR:IntegrityError: 1062 (23000): Duplicate entry 'id_1' for key 'test_table.PRIMARY'
+2021-12-29 15:54:22,236:ERROR:ProgrammingError: 1054 (42S22): Unknown column 'extra' in 'field list'
+2021-12-29 15:58:08,538:ERROR:DataError: 1292 (22007): Truncated incorrect DOUBLE value: 'id_2'
+2021-12-29 16:01:51,869:ERROR:DataError: 1292 (22007): Truncated incorrect DOUBLE value: 'id_2'
+2021-12-29 16:03:01,917:ERROR:DataError: 1292 (22007): Truncated incorrect DOUBLE value: 'id_2'
+2021-12-29 16:03:36,358:ERROR:DataError: 1292 (22007): Truncated incorrect DOUBLE value: 'id_2'
+2021-12-29 16:03:56,757:ERROR:ProgrammingError: 1054 (42S22): Unknown column 'ids' in 'where clause'
+2021-12-29 16:05:09,417:ERROR:ProgrammingError: 1054 (42S22): Unknown column 'ids' in 'where clause'
+2021-12-29 16:05:09,466:ERROR:IntegrityError: 1062 (23000): Duplicate entry 'id_2' for key 'test_table.PRIMARY'
+2021-12-29 16:05:09,498:ERROR:ProgrammingError: 1054 (42S22): Unknown column 'extra' in 'field list'
+2021-12-29 16:06:13,925:ERROR:ProgrammingError: 1054 (42S22): Unknown column 'ids' in 'where clause'
+2021-12-29 16:06:13,940:ERROR:DataError: 1292 (22007): Truncated incorrect DOUBLE value: 'id_2'
+2021-12-29 16:06:13,995:ERROR:IntegrityError: 1062 (23000): Duplicate entry 'id_2' for key 'test_table.PRIMARY'
+2021-12-29 16:06:14,029:ERROR:ProgrammingError: 1054 (42S22): Unknown column 'extra' in 'field list'
+2021-12-29 16:06:40,411:ERROR:ProgrammingError: 1054 (42S22): Unknown column 'ids' in 'where clause'
+2021-12-29 16:06:40,428:ERROR:DataError: 1292 (22007): Truncated incorrect DOUBLE value: 'id_2'
+2021-12-29 16:06:40,480:ERROR:IntegrityError: 1062 (23000): Duplicate entry 'id_2' for key 'test_table.PRIMARY'
+2021-12-29 16:06:40,514:ERROR:ProgrammingError: 1054 (42S22): Unknown column 'extra' in 'field list'
+2021-12-29 16:07:01,914:ERROR:ProgrammingError: 1054 (42S22): Unknown column 'ids' in 'where clause'
+2021-12-29 16:07:01,929:ERROR:DataError: 1292 (22007): Truncated incorrect DOUBLE value: 'id_2'
+2021-12-29 16:07:01,981:ERROR:IntegrityError: 1062 (23000): Duplicate entry 'id_2' for key 'test_table.PRIMARY'
+2021-12-29 16:07:02,014:ERROR:ProgrammingError: 1054 (42S22): Unknown column 'extra' in 'field list'
+2021-12-29 16:07:20,530:ERROR:ProgrammingError: 1054 (42S22): Unknown column 'ids' in 'where clause'
+2021-12-29 16:07:20,544:ERROR:DataError: 1292 (22007): Truncated incorrect DOUBLE value: 'id_2'
+2021-12-29 16:19:53,429:ERROR:IntegrityError: 1062 (23000): Duplicate entry 'id_2' for key 'test_table.PRIMARY'
+2021-12-29 16:19:53,449:ERROR:ProgrammingError: 1054 (42S22): Unknown column 'extra' in 'field list'
+2021-12-29 16:20:10,868:ERROR:ProgrammingError: 1054 (42S22): Unknown column 'ids' in 'where clause'
+2021-12-29 16:20:10,877:ERROR:DataError: 1292 (22007): Truncated incorrect DOUBLE value: 'id_2'
+2021-12-29 16:20:10,910:ERROR:IntegrityError: 1062 (23000): Duplicate entry 'id_2' for key 'test_table.PRIMARY'
+2021-12-29 16:20:10,931:ERROR:ProgrammingError: 1054 (42S22): Unknown column 'extra' in 'field list'
+2021-12-29 16:50:34,648:ERROR:ProgrammingError: 1054 (42S22): Unknown column 'ids' in 'where clause'
+2021-12-29 16:50:34,664:ERROR:DataError: 1292 (22007): Truncated incorrect DOUBLE value: 'id_2'
+2021-12-29 16:50:34,711:ERROR:IntegrityError: 1062 (23000): Duplicate entry 'id_2' for key 'test_table.PRIMARY'
+2021-12-29 16:50:34,765:ERROR:ProgrammingError: 1054 (42S22): Unknown column 'extra' in 'field list'
+2021-12-29 20:21:00,123: ERROR: CRUD_operation_db.py: create_db_data188: CRUD_operation_db: IntegrityError: 1062 (23000): Duplicate entry 'id_2' for key 'test_table.PRIMARY':
+2021-12-29 20:21:00,155: ERROR: CRUD_operation_db.py: create_db_data185: CRUD_operation_db: ProgrammingError: 1054 (42S22): Unknown column 'extra' in 'field list':
+2021-12-29 20:24:16,569: ERROR: CRUD_operation_db.py-> create_db_data->188-> IntegrityError: 1062 (23000): Duplicate entry 'id_2' for key 'test_table.PRIMARY':
+2021-12-29 20:24:16,602: ERROR: CRUD_operation_db.py-> create_db_data->185-> ProgrammingError: 1054 (42S22): Unknown column 'extra' in 'field list':
+2021-12-29 20:25:12,671: ERROR: CRUD_operation_db.py-> create_db_data-> 188-> IntegrityError: 1062 (23000): Duplicate entry 'id_2' for key 'test_table.PRIMARY'
+2021-12-29 20:25:12,701: ERROR: CRUD_operation_db.py-> create_db_data-> 185-> ProgrammingError: 1054 (42S22): Unknown column 'extra' in 'field list'
+2021-12-29 21:27:48,181: ERROR: CRUD_operation_db.py-> delete_db_data-> 112-> ProgrammingError: 1054 (42S22): Unknown column 'ids' in 'where clause'
+2021-12-29 21:27:48,201: ERROR: CRUD_operation_db.py-> delete_db_data-> 115-> DataError: 1292 (22007): Truncated incorrect DOUBLE value: 'id_2'
+2021-12-29 21:29:35,876: ERROR: CRUD_operation_db.py-> create_db_data-> 188-> IntegrityError: 1062 (23000): Duplicate entry 'id_2' for key 'test_table.PRIMARY'
+2021-12-29 21:30:38,534: ERROR: CRUD_operation_db.py-> create_db_data-> 188-> IntegrityError: 1062 (23000): Duplicate entry 'id_2' for key 'test_table.PRIMARY'
+2021-12-29 21:38:15,032: ERROR: CRUD_operation_db.py-> delete_db_data-> 112-> ProgrammingError: 1054 (42S22): Unknown column 'ids' in 'where clause'
+2021-12-29 21:38:15,052: ERROR: CRUD_operation_db.py-> delete_db_data-> 115-> DataError: 1292 (22007): Truncated incorrect DOUBLE value: 'id_2'
+2021-12-29 21:38:15,119: ERROR: CRUD_operation_db.py-> create_db_data-> 188-> IntegrityError: 1062 (23000): Duplicate entry 'id_2' for key 'test_table.PRIMARY'
+2021-12-29 21:38:15,158: ERROR: CRUD_operation_db.py-> create_db_data-> 185-> ProgrammingError: 1054 (42S22): Unknown column 'extra' in 'field list'
+2021-12-29 21:49:19,618: ERROR: CRUD_operation_db.py-> delete_db_data-> 112-> ProgrammingError: 1054 (42S22): Unknown column 'ids' in 'where clause'
+2021-12-29 21:49:40,812: ERROR: CRUD_operation_db.py-> delete_db_data-> 115-> DataError: 1292 (22007): Truncated incorrect DOUBLE value: 'id_2'
+2021-12-29 21:51:05,972: ERROR: CRUD_operation_db.py-> delete_db_data-> 112-> ProgrammingError: 1054 (42S22): Unknown column 'ids' in 'where clause'
+2021-12-29 21:51:14,407: ERROR: CRUD_operation_db.py-> delete_db_data-> 115-> DataError: 1292 (22007): Truncated incorrect DOUBLE value: 'id_2'
+2021-12-29 21:51:24,098: ERROR: CRUD_operation_db.py-> delete_db_data-> 112-> ProgrammingError: 1054 (42S22): Unknown column 'ids' in 'where clause'
+2021-12-29 21:51:51,377: ERROR: CRUD_operation_db.py-> delete_db_data-> 115-> DataError: 1292 (22007): Truncated incorrect DOUBLE value: 'id_2'
+2021-12-29 23:23:06,195: ERROR: CRUD_operation_db.py-> delete_db_data-> 112-> ProgrammingError: 1054 (42S22): Unknown column 'ids' in 'where clause'
+2021-12-29 23:23:06,221: ERROR: CRUD_operation_db.py-> delete_db_data-> 115-> DataError: 1292 (22007): Truncated incorrect DOUBLE value: 'id_2'
+2021-12-29 23:35:50,245: ERROR: CRUD_operation_db.py-> delete_db_data-> 115-> ProgrammingError: 1054 (42S22): Unknown column 'ids' in 'where clause'
+2021-12-29 23:35:50,259: ERROR: CRUD_operation_db.py-> delete_db_data-> 118-> DataError: 1292 (22007): Truncated incorrect DOUBLE value: 'id_2'
+2021-12-29 23:35:50,270: ERROR: CRUD_operation_db.py-> delete_db_data-> 112-> TypeError: object of type 'int' has no len()
+2021-12-29 23:57:32,809: ERROR: CRUD_operation_db.py-> delete_db_data-> 115-> ProgrammingError: 1054 (42S22): Unknown column 'ids' in 'where clause'
+2021-12-29 23:57:32,829: ERROR: CRUD_operation_db.py-> delete_db_data-> 118-> DataError: 1292 (22007): Truncated incorrect DOUBLE value: 'id_2'
+2021-12-29 23:57:32,847: ERROR: CRUD_operation_db.py-> delete_db_data-> 112-> TypeError: object of type 'int' has no len()
+2021-12-29 23:58:27,460: ERROR: CRUD_operation_db.py-> delete_db_data-> 115-> ProgrammingError: 1054 (42S22): Unknown column 'ids' in 'where clause'
+2021-12-29 23:58:27,487: ERROR: CRUD_operation_db.py-> delete_db_data-> 118-> DataError: 1292 (22007): Truncated incorrect DOUBLE value: 'id_2'
+2021-12-29 23:58:27,511: ERROR: CRUD_operation_db.py-> delete_db_data-> 112-> TypeError: object of type 'int' has no len()
+2021-12-30 00:02:58,143: ERROR: CRUD_operation_db.py-> delete_db_data-> 115-> ProgrammingError: 1054 (42S22): Unknown column 'ids' in 'where clause'
+2021-12-30 00:02:58,169: ERROR: CRUD_operation_db.py-> delete_db_data-> 118-> DataError: 1292 (22007): Truncated incorrect DOUBLE value: 'id_2'
+2021-12-30 00:02:58,194: ERROR: CRUD_operation_db.py-> delete_db_data-> 112-> TypeError: object of type 'int' has no len()
+2021-12-30 00:02:58,331: ERROR: CRUD_operation_db.py-> create_db_data-> 191-> IntegrityError: 1062 (23000): Duplicate entry 'id_2' for key 'test_table.PRIMARY'
+2021-12-30 00:02:58,389: ERROR: CRUD_operation_db.py-> create_db_data-> 188-> ProgrammingError: 1054 (42S22): Unknown column 'extra' in 'field list'
+2021-12-30 00:13:58,062: ERROR: CRUD_operation_db.py-> delete_db_data-> 116-> ProgrammingError: 1054 (42S22): Unknown column 'ids' in 'where clause'
+2021-12-30 00:13:58,087: ERROR: CRUD_operation_db.py-> delete_db_data-> 119-> DataError: 1292 (22007): Truncated incorrect DOUBLE value: 'id_2'
+2021-12-30 00:13:58,113: WARNING: CRUD_operation_db.py-> delete_db_data-> 109-> expression value is: 123
+2021-12-30 00:20:07,783: WARNING: CRUD_operation_db.py-> delete_db_data-> 110-> expression value is: []
+2021-12-30 00:20:31,019: WARNING: CRUD_operation_db.py-> delete_db_data-> 110-> expression value is: [3356]
+2021-12-30 00:32:39,748: ERROR: CRUD_operation_db.py-> delete_db_data-> 117-> ProgrammingError: 1054 (42S22): Unknown column 'ids' in 'where clause'
+2021-12-30 00:32:39,795: ERROR: CRUD_operation_db.py-> delete_db_data-> 120-> DataError: 1292 (22007): Truncated incorrect DOUBLE value: 'id_2'
+2021-12-30 00:32:39,823: WARNING: CRUD_operation_db.py-> delete_db_data-> 110-> expression value is: 123
+2021-12-30 00:33:06,829: ERROR: CRUD_operation_db.py-> delete_db_data-> 117-> ProgrammingError: 1054 (42S22): Unknown column 'ids' in 'where clause'
+2021-12-30 00:33:06,846: ERROR: CRUD_operation_db.py-> delete_db_data-> 120-> DataError: 1292 (22007): Truncated incorrect DOUBLE value: 'id_2'
+2021-12-30 00:33:06,861: WARNING: CRUD_operation_db.py-> delete_db_data-> 110-> expression value is: 123
+2021-12-30 00:33:19,682: ERROR: CRUD_operation_db.py-> delete_db_data-> 117-> ProgrammingError: 1054 (42S22): Unknown column 'ids' in 'where clause'
+2021-12-30 00:33:19,712: ERROR: CRUD_operation_db.py-> delete_db_data-> 120-> DataError: 1292 (22007): Truncated incorrect DOUBLE value: 'id_2'
+2021-12-30 00:33:19,734: WARNING: CRUD_operation_db.py-> delete_db_data-> 110-> expression value is: 123
+2021-12-30 00:34:49,384: ERROR: CRUD_operation_db.py-> delete_db_data-> 118-> ProgrammingError: 1054 (42S22): Unknown column 'ids' in 'where clause'
+2021-12-30 00:34:49,419: ERROR: CRUD_operation_db.py-> delete_db_data-> 121-> DataError: 1292 (22007): Truncated incorrect DOUBLE value: 'id_2'
+2021-12-30 00:34:49,446: WARNING: CRUD_operation_db.py-> delete_db_data-> 110-> expression value is: 123
+2021-12-30 00:34:49,447: ERROR: CRUD_operation_db.py-> delete_db_data-> 115-> TypeError: ('expression value is: %s', 123)
+2021-12-30 00:34:49,477: WARNING: CRUD_operation_db.py-> delete_db_data-> 110-> expression value is: 
+2021-12-30 00:34:49,477: ERROR: CRUD_operation_db.py-> delete_db_data-> 115-> TypeError: ('expression value is: %s', '')
+2021-12-30 00:38:24,237: ERROR: CRUD_operation_db.py-> delete_db_data-> 118-> ProgrammingError: 1054 (42S22): Unknown column 'ids' in 'where clause'
+2021-12-30 00:38:24,267: ERROR: CRUD_operation_db.py-> delete_db_data-> 121-> DataError: 1292 (22007): Truncated incorrect DOUBLE value: 'id_2'
+2021-12-30 00:38:24,296: WARNING: CRUD_operation_db.py-> delete_db_data-> 110-> expression value is: 123
+2021-12-30 00:38:24,296: ERROR: CRUD_operation_db.py-> delete_db_data-> 115-> TypeError: ('expression value is: %s', 123)
+2021-12-30 00:38:24,319: WARNING: CRUD_operation_db.py-> delete_db_data-> 110-> expression value is: 
+2021-12-30 00:38:24,320: ERROR: CRUD_operation_db.py-> delete_db_data-> 115-> TypeError: ('expression value is: %s', '')
+2021-12-30 00:38:24,346: WARNING: CRUD_operation_db.py-> delete_db_data-> 110-> expression value is: [3356]
+2021-12-30 00:38:24,346: ERROR: CRUD_operation_db.py-> delete_db_data-> 115-> TypeError: ('expression value is: %s', [3356])
+2021-12-30 00:38:24,434: ERROR: CRUD_operation_db.py-> create_db_data-> 194-> IntegrityError: 1062 (23000): Duplicate entry 'id_2' for key 'test_table.PRIMARY'
+2021-12-30 00:38:24,493: ERROR: CRUD_operation_db.py-> create_db_data-> 191-> ProgrammingError: 1054 (42S22): Unknown column 'extra' in 'field list'
+2021-12-30 00:41:02,788: ERROR: CRUD_operation_db.py-> create_db_data-> 194-> IntegrityError: 1062 (23000): Duplicate entry 'id_2' for key 'test_table.PRIMARY'
+2021-12-30 00:41:02,824: ERROR: CRUD_operation_db.py-> create_db_data-> 191-> ProgrammingError: 1054 (42S22): Unknown column 'extra' in 'field list'
+2021-12-30 00:45:14,675: ERROR: CRUD_operation_db.py-> delete_db_data-> Line 118-> ProgrammingError: 1054 (42S22): Unknown column 'ids' in 'where clause'
+2021-12-30 00:45:14,709: ERROR: CRUD_operation_db.py-> delete_db_data-> Line 121-> DataError: 1292 (22007): Truncated incorrect DOUBLE value: 'id_2'
+2021-12-30 00:45:14,740: WARNING: CRUD_operation_db.py-> delete_db_data-> Line 110-> expression value is: 123
+2021-12-30 00:45:14,741: ERROR: CRUD_operation_db.py-> delete_db_data-> Line 115-> TypeError: ('expression value is: %s', 123)
+2021-12-30 00:45:14,769: WARNING: CRUD_operation_db.py-> delete_db_data-> Line 110-> expression value is: 
+2021-12-30 00:45:14,769: ERROR: CRUD_operation_db.py-> delete_db_data-> Line 115-> TypeError: ('expression value is: %s', '')
+2021-12-30 00:45:46,524: ERROR: CRUD_operation_db.py-> create_db_data-> Line 194-> IntegrityError: 1062 (23000): Duplicate entry 'id_2' for key 'test_table.PRIMARY'
+2021-12-30 00:45:46,579: ERROR: CRUD_operation_db.py-> create_db_data-> Line 191-> ProgrammingError: 1054 (42S22): Unknown column 'extra' in 'field list'
+2021-12-30 00:45:46,602: ERROR: CRUD_operation_db.py-> create_db_data-> Line 203-> AttributeError: 'list' object has no attribute 'keys'
+2021-12-30 00:46:17,864: ERROR: CRUD_operation_db.py-> create_db_data-> Line 194-> IntegrityError: 1062 (23000): Duplicate entry 'id_2' for key 'test_table.PRIMARY'
+2021-12-30 00:46:17,917: ERROR: CRUD_operation_db.py-> create_db_data-> Line 191-> ProgrammingError: 1054 (42S22): Unknown column 'extra' in 'field list'
+2021-12-30 00:46:17,943: ERROR: CRUD_operation_db.py-> create_db_data-> Line 203-> AttributeError: 'list' object has no attribute 'keys'
+2021-12-30 00:47:51,028: WARNING: CRUD_operation_db.py-> delete_db_data-> Line 110-> expression value is: [3356]
+2021-12-30 00:47:51,029: ERROR: CRUD_operation_db.py-> delete_db_data-> Line 115-> TypeError: ('expression value is: %s', [3356])
+2021-12-30 00:47:51,060: WARNING: CRUD_operation_db.py-> delete_db_data-> Line 110-> expression value is: [{'setgwett': 'asddgf vqeet'}]
+2021-12-30 00:47:51,060: ERROR: CRUD_operation_db.py-> delete_db_data-> Line 115-> TypeError: ('expression value is: %s', [{'setgwett': 'asddgf vqeet'}])
+2021-12-30 00:52:52,256: ERROR: CRUD_operation_db.py-> delete_db_data-> Line 118-> ProgrammingError: 1054 (42S22): Unknown column 'ids' in 'where clause'
+2021-12-30 00:52:52,298: ERROR: CRUD_operation_db.py-> delete_db_data-> Line 121-> DataError: 1292 (22007): Truncated incorrect DOUBLE value: 'id_2'
+2021-12-30 00:52:52,342: WARNING: CRUD_operation_db.py-> delete_db_data-> Line 110-> expression value is: 123
+2021-12-30 00:52:52,343: ERROR: CRUD_operation_db.py-> delete_db_data-> Line 115-> TypeError: ('expression value is: %s', 123)
+2021-12-30 00:52:52,375: WARNING: CRUD_operation_db.py-> delete_db_data-> Line 110-> expression value is: 
+2021-12-30 00:52:52,376: ERROR: CRUD_operation_db.py-> delete_db_data-> Line 115-> TypeError: ('expression value is: %s', '')
+2021-12-30 00:52:52,405: WARNING: CRUD_operation_db.py-> delete_db_data-> Line 110-> expression value is: [3356]
+2021-12-30 00:52:52,405: ERROR: CRUD_operation_db.py-> delete_db_data-> Line 115-> TypeError: ('expression value is: %s', [3356])
+2021-12-30 00:52:52,437: WARNING: CRUD_operation_db.py-> delete_db_data-> Line 110-> expression value is: [{'setgwett': 'asddgf vqeet'}]
+2021-12-30 00:52:52,437: ERROR: CRUD_operation_db.py-> delete_db_data-> Line 115-> TypeError: ('expression value is: %s', [{'setgwett': 'asddgf vqeet'}])
+2021-12-30 00:52:52,528: ERROR: CRUD_operation_db.py-> create_db_data-> Line 194-> IntegrityError: 1062 (23000): Duplicate entry 'id_2' for key 'test_table.PRIMARY'
+2021-12-30 00:52:52,603: ERROR: CRUD_operation_db.py-> create_db_data-> Line 191-> ProgrammingError: 1054 (42S22): Unknown column 'extra' in 'field list'
+2021-12-30 00:52:52,635: ERROR: CRUD_operation_db.py-> create_db_data-> Line 203-> AttributeError: 'list' object has no attribute 'keys'
+2021-12-30 00:52:52,669: ERROR: CRUD_operation_db.py-> create_db_data-> Line 203-> AttributeError: 'NoneType' object has no attribute 'keys'
+2021-12-30 01:11:51,359: ERROR: CRUD_operation_db.py-> create_db_data-> Line 197-> IntegrityError: 1062 (23000): Duplicate entry 'id_2' for key 'test_table.PRIMARY'
+2021-12-30 01:11:51,426: ERROR: CRUD_operation_db.py-> create_db_data-> Line 194-> ProgrammingError: 1054 (42S22): Unknown column 'extra' in 'field list'
+2021-12-30 01:11:51,459: ERROR: CRUD_operation_db.py-> create_db_data-> Line 206-> AttributeError: 'list' object has no attribute 'keys'
+2021-12-30 01:17:53,229: ERROR: CRUD_operation_db.py-> create_db_data-> Line 194-> ProgrammingError: 1049 (42000): Unknown database 'none'
+2021-12-30 01:19:02,854: ERROR: CRUD_operation_db.py-> create_db_data-> Line 194-> ProgrammingError: 1049 (42000): Unknown database 'none'
+2021-12-30 11:53:32,142: WARNING: CRUD_operation_db.py-> delete_db_data-> Line 110-> expression value is: [3356]
+2021-12-30 11:53:32,143: ERROR: CRUD_operation_db.py-> delete_db_data-> Line 115-> TypeError: ('expression value is: %s', [3356])
+2021-12-30 11:53:32,160: WARNING: CRUD_operation_db.py-> delete_db_data-> Line 110-> expression value is: [{'setgwett': 'asddgf vqeet'}]
+2021-12-30 11:53:32,160: ERROR: CRUD_operation_db.py-> delete_db_data-> Line 115-> TypeError: ('expression value is: %s', [{'setgwett': 'asddgf vqeet'}])
+2021-12-30 12:36:14,225: ERROR: CRUD_operation_db.py-> create_db_data-> Line 196-> ProgrammingError: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '1234.None (id,title,original_title,original_title_romanised,image,movie_banner,d' at line 1
+2021-12-30 12:36:14,247: ERROR: CRUD_operation_db.py-> create_db_data-> Line 196-> ProgrammingError: 1049 (42000): Unknown database 'none'
+2021-12-30 12:38:21,530: ERROR: CRUD_operation_db.py-> view_db_data-> Line 78-> ProgrammingError: 1054 (42S22): Unknown column 'tititit' in 'field list'
+2021-12-30 12:39:36,408: ERROR: CRUD_operation_db.py-> view_db_data-> Line 78-> ProgrammingError: 1054 (42S22): Unknown column 'tititit' in 'field list'
+2021-12-30 12:41:41,217: ERROR: CRUD_operation_db.py-> view_db_data-> Line 78-> ProgrammingError: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '.wrong tanle' at line 1
+2021-12-30 12:41:41,235: ERROR: CRUD_operation_db.py-> view_db_data-> Line 78-> ProgrammingError: 1054 (42S22): Unknown column 'tititit' in 'field list'
+2021-12-30 12:42:37,552: ERROR: CRUD_operation_db.py-> view_db_data-> Line 78-> ProgrammingError: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '.wrong tanle' at line 1
+2021-12-30 12:42:37,566: ERROR: CRUD_operation_db.py-> view_db_data-> Line 78-> ProgrammingError: 1054 (42S22): Unknown column 'tititit' in 'field list'
+2021-12-30 12:43:38,994: ERROR: CRUD_operation_db.py-> view_db_data-> Line 78-> ProgrammingError: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '.wrong tanle' at line 1
+2021-12-30 12:43:39,007: ERROR: CRUD_operation_db.py-> view_db_data-> Line 78-> ProgrammingError: 1054 (42S22): Unknown column 'tititit' in 'field list'
+2021-12-30 12:46:56,998: ERROR: CRUD_operation_db.py-> view_db_data-> Line 79-> ProgrammingError: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '.wrong tanle' at line 1
+2021-12-30 12:47:13,954: ERROR: CRUD_operation_db.py-> view_db_data-> Line 79-> ProgrammingError: 1054 (42S22): Unknown column 'tititit' in 'field list'
+2021-12-30 12:53:00,013: ERROR: CRUD_operation_db.py-> view_db_data-> Line 78-> ProgrammingError: 1054 (42S22): Unknown column 'id_2' in 'where clause'
+2021-12-30 12:53:55,803: ERROR: CRUD_operation_db.py-> view_db_data-> Line 78-> ProgrammingError: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '.wrong tanle' at line 1
+2021-12-30 12:53:55,819: ERROR: CRUD_operation_db.py-> view_db_data-> Line 78-> ProgrammingError: 1054 (42S22): Unknown column 'tititit' in 'field list'
+2021-12-30 12:57:29,799: ERROR: CRUD_operation_db.py-> view_db_data-> Line 78-> ProgrammingError: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '.wrong tanle' at line 1
+2021-12-30 12:57:29,814: ERROR: CRUD_operation_db.py-> view_db_data-> Line 78-> ProgrammingError: 1054 (42S22): Unknown column 'tititit' in 'field list'
+2021-12-30 12:57:29,829: ERROR: CRUD_operation_db.py-> view_db_data-> Line 78-> ProgrammingError: 1054 (42S22): Unknown column 'originl_title' in 'field list'
+2021-12-30 12:58:32,984: ERROR: CRUD_operation_db.py-> view_db_data-> Line 78-> ProgrammingError: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '.wrong tanle' at line 1
+2021-12-30 12:58:32,999: ERROR: CRUD_operation_db.py-> view_db_data-> Line 78-> ProgrammingError: 1054 (42S22): Unknown column 'tititit' in 'field list'
+2021-12-30 12:58:33,022: ERROR: CRUD_operation_db.py-> view_db_data-> Line 78-> ProgrammingError: 1054 (42S22): Unknown column 'e3e' in 'where clause'
+2021-12-30 13:30:55,667: WARNING: CRUD_operation_db.py-> update_db_data-> Line 163-> set_value:None target_exp:None
+2021-12-30 13:30:55,681: WARNING: CRUD_operation_db.py-> update_db_data-> Line 163-> set_value:['original_title', 'an original title'] target_exp:None
+2021-12-30 13:32:45,005: WARNING: CRUD_operation_db.py-> update_db_data-> Line 163-> set_value:None target_exp:None
+2021-12-30 13:32:45,035: WARNING: CRUD_operation_db.py-> update_db_data-> Line 163-> set_value:['original_title', 'an original title'] target_exp:None
+2021-12-30 13:33:33,456: WARNING: CRUD_operation_db.py-> update_db_data-> Line 163-> set_value:None target_exp:None
+2021-12-30 13:33:33,486: WARNING: CRUD_operation_db.py-> update_db_data-> Line 163-> set_value:['original_title', 'an original title'] target_exp:None
+2021-12-30 13:33:33,502: WARNING: CRUD_operation_db.py-> update_db_data-> Line 163-> set_value:None target_exp:None
+2021-12-30 13:33:33,515: WARNING: CRUD_operation_db.py-> update_db_data-> Line 163-> set_value:None target_exp:None
+2021-12-30 13:33:33,528: WARNING: CRUD_operation_db.py-> update_db_data-> Line 163-> set_value:None target_exp:None
+2021-12-30 13:36:36,950: WARNING: CRUD_operation_db.py-> update_db_data-> Line 163-> set_value:None target_exp:None
+2021-12-30 13:36:36,978: WARNING: CRUD_operation_db.py-> update_db_data-> Line 163-> set_value:['original_title', 'an original title'] target_exp:None
+2021-12-30 13:36:36,992: WARNING: CRUD_operation_db.py-> update_db_data-> Line 163-> set_value:[] target_exp:[]
+2021-12-30 13:36:37,007: WARNING: CRUD_operation_db.py-> update_db_data-> Line 163-> set_value:None target_exp:None
+2021-12-30 13:36:37,021: WARNING: CRUD_operation_db.py-> update_db_data-> Line 163-> set_value:None target_exp:None
+2021-12-30 13:36:37,035: WARNING: CRUD_operation_db.py-> update_db_data-> Line 163-> set_value:None target_exp:None
+2021-12-30 13:38:17,839: WARNING: CRUD_operation_db.py-> update_db_data-> Line 163-> set_value:None target_exp:None
+2021-12-30 13:38:17,878: WARNING: CRUD_operation_db.py-> update_db_data-> Line 163-> set_value:['original_title', 'an original title'] target_exp:None
+2021-12-30 13:38:17,897: WARNING: CRUD_operation_db.py-> update_db_data-> Line 163-> set_value:[] target_exp:[]
+2021-12-30 13:41:10,819: WARNING: CRUD_operation_db.py-> update_db_data-> Line 167-> set_value:None target_exp:None
+2021-12-30 13:41:10,848: WARNING: CRUD_operation_db.py-> update_db_data-> Line 167-> set_value:['original_title', 'an original title'] target_exp:None
+2021-12-30 13:41:10,861: WARNING: CRUD_operation_db.py-> update_db_data-> Line 167-> set_value:[] target_exp:[]
+2021-12-30 13:41:10,874: WARNING: CRUD_operation_db.py-> update_db_data-> Line 167-> set_value:34567 target_exp:576547
+2021-12-30 13:41:10,888: WARNING: CRUD_operation_db.py-> update_db_data-> Line 167-> set_value:None target_exp:None
+2021-12-30 13:41:10,901: WARNING: CRUD_operation_db.py-> update_db_data-> Line 167-> set_value:None target_exp:None
+2021-12-30 13:44:23,143: WARNING: CRUD_operation_db.py-> update_db_data-> Line 167-> set_value:None target_exp:None
+2021-12-30 13:44:23,170: WARNING: CRUD_operation_db.py-> update_db_data-> Line 167-> set_value:['original_title', 'an original title'] target_exp:None
+2021-12-30 13:44:23,183: WARNING: CRUD_operation_db.py-> update_db_data-> Line 167-> set_value:[] target_exp:[]
+2021-12-30 13:44:23,198: WARNING: CRUD_operation_db.py-> update_db_data-> Line 167-> set_value:34567 target_exp:576547
+2021-12-30 13:45:50,923: WARNING: CRUD_operation_db.py-> update_db_data-> Line 167-> set_value:None target_exp:None
+2021-12-30 13:45:50,951: WARNING: CRUD_operation_db.py-> update_db_data-> Line 167-> set_value:['original_title', 'an original title'] target_exp:None
+2021-12-30 13:45:50,964: WARNING: CRUD_operation_db.py-> update_db_data-> Line 167-> set_value:[] target_exp:[]
+2021-12-30 13:45:50,978: WARNING: CRUD_operation_db.py-> update_db_data-> Line 167-> set_value:34567 target_exp:576547
+2021-12-30 13:47:07,781: ERROR: CRUD_operation_db.py-> delete_db_data-> Line 119-> ProgrammingError: 1054 (42S22): Unknown column 'ids' in 'where clause'
+2021-12-30 13:47:07,804: ERROR: CRUD_operation_db.py-> delete_db_data-> Line 122-> DataError: 1292 (22007): Truncated incorrect DOUBLE value: 'id_2'
+2021-12-30 13:47:07,826: WARNING: CRUD_operation_db.py-> delete_db_data-> Line 111-> expression value is: 123
+2021-12-30 13:47:07,826: ERROR: CRUD_operation_db.py-> delete_db_data-> Line 116-> TypeError: ('expression value is: %s', 123)
+2021-12-30 13:47:07,846: WARNING: CRUD_operation_db.py-> delete_db_data-> Line 111-> expression value is: 
+2021-12-30 13:47:07,847: ERROR: CRUD_operation_db.py-> delete_db_data-> Line 116-> TypeError: ('expression value is: %s', '')
+2021-12-30 13:47:07,875: WARNING: CRUD_operation_db.py-> delete_db_data-> Line 111-> expression value is: [3356]
+2021-12-30 13:47:07,875: ERROR: CRUD_operation_db.py-> delete_db_data-> Line 116-> TypeError: ('expression value is: %s', [3356])
+2021-12-30 13:47:07,902: WARNING: CRUD_operation_db.py-> delete_db_data-> Line 111-> expression value is: [{'setgwett': 'asddgf vqeet'}]
+2021-12-30 13:47:07,902: ERROR: CRUD_operation_db.py-> delete_db_data-> Line 116-> TypeError: ('expression value is: %s', [{'setgwett': 'asddgf vqeet'}])
+2021-12-30 13:47:07,998: ERROR: CRUD_operation_db.py-> create_db_data-> Line 206-> IntegrityError: 1062 (23000): Duplicate entry 'id_2' for key 'test_table.PRIMARY'
+2021-12-30 13:47:08,040: ERROR: CRUD_operation_db.py-> create_db_data-> Line 203-> ProgrammingError: 1054 (42S22): Unknown column 'extra' in 'field list'
+2021-12-30 13:47:08,058: ERROR: CRUD_operation_db.py-> create_db_data-> Line 203-> ProgrammingError: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '1234.None (id,title,original_title,original_title_romanised,image,movie_banner,d' at line 1
+2021-12-30 13:47:08,072: ERROR: CRUD_operation_db.py-> create_db_data-> Line 203-> ProgrammingError: 1049 (42000): Unknown database 'none'
+2021-12-30 13:47:08,086: WARNING: CRUD_operation_db.py-> update_db_data-> Line 167-> set_value:None target_exp:None
+2021-12-30 13:47:08,118: WARNING: CRUD_operation_db.py-> update_db_data-> Line 167-> set_value:['original_title', 'an original title'] target_exp:None
+2021-12-30 13:47:08,137: WARNING: CRUD_operation_db.py-> update_db_data-> Line 167-> set_value:[] target_exp:[]
+2021-12-30 13:47:08,159: WARNING: CRUD_operation_db.py-> update_db_data-> Line 167-> set_value:34567 target_exp:576547
+2021-12-30 13:47:08,183: ERROR: CRUD_operation_db.py-> update_db_data-> Line 172-> IntegrityError: 1062 (23000): Duplicate entry 'id_2' for key 'test_table.PRIMARY'
+2021-12-30 13:47:08,286: ERROR: CRUD_operation_db.py-> view_db_data-> Line 77-> ProgrammingError: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '.wrong tanle' at line 1
+2021-12-30 13:47:08,308: ERROR: CRUD_operation_db.py-> view_db_data-> Line 77-> ProgrammingError: 1054 (42S22): Unknown column 'tititit' in 'field list'
+2021-12-30 13:47:08,329: ERROR: CRUD_operation_db.py-> view_db_data-> Line 77-> ProgrammingError: 1054 (42S22): Unknown column 'e3e' in 'where clause'
+2021-12-30 13:50:02,237: ERROR: CRUD_operation_db.py-> delete_db_data-> Line 119-> ProgrammingError: 1054 (42S22): Unknown column 'ids' in 'where clause'
+2021-12-30 13:50:02,270: ERROR: CRUD_operation_db.py-> delete_db_data-> Line 122-> DataError: 1292 (22007): Truncated incorrect DOUBLE value: 'id_2'
+2021-12-30 13:50:02,299: WARNING: CRUD_operation_db.py-> delete_db_data-> Line 111-> expression value is: 123
+2021-12-30 13:50:02,300: ERROR: CRUD_operation_db.py-> delete_db_data-> Line 116-> TypeError: ('expression value is: %s', 123)
+2021-12-30 13:50:02,325: WARNING: CRUD_operation_db.py-> delete_db_data-> Line 111-> expression value is: 
+2021-12-30 13:50:02,326: ERROR: CRUD_operation_db.py-> delete_db_data-> Line 116-> TypeError: ('expression value is: %s', '')
+2021-12-30 13:50:02,355: WARNING: CRUD_operation_db.py-> delete_db_data-> Line 111-> expression value is: [3356]
+2021-12-30 13:50:02,356: ERROR: CRUD_operation_db.py-> delete_db_data-> Line 116-> TypeError: ('expression value is: %s', [3356])
+2021-12-30 13:50:02,382: WARNING: CRUD_operation_db.py-> delete_db_data-> Line 111-> expression value is: [{'setgwett': 'asddgf vqeet'}]
+2021-12-30 13:50:02,382: ERROR: CRUD_operation_db.py-> delete_db_data-> Line 116-> TypeError: ('expression value is: %s', [{'setgwett': 'asddgf vqeet'}])
+2021-12-30 13:50:02,472: ERROR: CRUD_operation_db.py-> create_db_data-> Line 206-> IntegrityError: 1062 (23000): Duplicate entry 'id_2' for key 'test_table.PRIMARY'
+2021-12-30 13:50:02,528: ERROR: CRUD_operation_db.py-> create_db_data-> Line 203-> ProgrammingError: 1054 (42S22): Unknown column 'extra' in 'field list'
+2021-12-30 13:50:02,561: ERROR: CRUD_operation_db.py-> create_db_data-> Line 203-> ProgrammingError: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '1234.None (id,title,original_title,original_title_romanised,image,movie_banner,d' at line 1
+2021-12-30 13:50:02,590: ERROR: CRUD_operation_db.py-> create_db_data-> Line 203-> ProgrammingError: 1049 (42000): Unknown database 'none'
+2021-12-30 13:50:02,619: WARNING: CRUD_operation_db.py-> update_db_data-> Line 167-> set_value:None target_exp:None
+2021-12-30 13:50:02,681: WARNING: CRUD_operation_db.py-> update_db_data-> Line 167-> set_value:['original_title', 'an original title'] target_exp:None
+2021-12-30 13:50:02,708: WARNING: CRUD_operation_db.py-> update_db_data-> Line 167-> set_value:[] target_exp:[]
+2021-12-30 13:50:02,740: WARNING: CRUD_operation_db.py-> update_db_data-> Line 167-> set_value:34567 target_exp:576547
+2021-12-30 13:50:02,775: ERROR: CRUD_operation_db.py-> update_db_data-> Line 172-> IntegrityError: 1062 (23000): Duplicate entry 'id_2' for key 'test_table.PRIMARY'
+2021-12-30 13:50:02,804: WARNING: CRUD_operation_db.py-> update_db_data-> Line 167-> set_value:None target_exp:None
+2021-12-30 13:50:02,911: ERROR: CRUD_operation_db.py-> view_db_data-> Line 77-> ProgrammingError: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '.wrong tanle' at line 1
+2021-12-30 13:50:02,924: ERROR: CRUD_operation_db.py-> view_db_data-> Line 77-> ProgrammingError: 1054 (42S22): Unknown column 'tititit' in 'field list'
+2021-12-30 13:50:02,941: ERROR: CRUD_operation_db.py-> view_db_data-> Line 77-> ProgrammingError: 1054 (42S22): Unknown column 'e3e' in 'where clause'
+2021-12-30 13:50:29,543: ERROR: CRUD_operation_db.py-> create_db_data-> Line 206-> IntegrityError: 1062 (23000): Duplicate entry 'id_2' for key 'test_table.PRIMARY'
+2021-12-30 13:50:29,590: ERROR: CRUD_operation_db.py-> create_db_data-> Line 203-> ProgrammingError: 1054 (42S22): Unknown column 'extra' in 'field list'
+2021-12-30 13:50:29,612: ERROR: CRUD_operation_db.py-> create_db_data-> Line 215-> AttributeError: 'list' object has no attribute 'keys'
+2021-12-30 13:54:04,064: ERROR: CRUD_operation_db.py-> view_db_data-> Line 77-> ProgrammingError: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '.wrong tanle' at line 1
+2021-12-30 13:54:04,085: ERROR: CRUD_operation_db.py-> view_db_data-> Line 77-> ProgrammingError: 1054 (42S22): Unknown column 'tititit' in 'field list'
+2021-12-30 13:54:04,106: ERROR: CRUD_operation_db.py-> view_db_data-> Line 77-> ProgrammingError: 1054 (42S22): Unknown column 'e3e' in 'where clause'
+2021-12-30 13:59:18,720: ERROR: CRUD_operation_db.py-> delete_db_data-> Line 119-> ProgrammingError: 1054 (42S22): Unknown column 'ids' in 'where clause'
+2021-12-30 13:59:18,747: ERROR: CRUD_operation_db.py-> delete_db_data-> Line 122-> DataError: 1292 (22007): Truncated incorrect DOUBLE value: 'id_2'
+2021-12-30 13:59:18,773: WARNING: CRUD_operation_db.py-> delete_db_data-> Line 111-> expression value is: 123
+2021-12-30 13:59:18,774: ERROR: CRUD_operation_db.py-> delete_db_data-> Line 116-> TypeError: ('expression value is: %s', 123)
+2021-12-30 13:59:18,799: WARNING: CRUD_operation_db.py-> delete_db_data-> Line 111-> expression value is: 
+2021-12-30 13:59:18,799: ERROR: CRUD_operation_db.py-> delete_db_data-> Line 116-> TypeError: ('expression value is: %s', '')
+2021-12-30 13:59:18,826: WARNING: CRUD_operation_db.py-> delete_db_data-> Line 111-> expression value is: [3356]
+2021-12-30 13:59:18,827: ERROR: CRUD_operation_db.py-> delete_db_data-> Line 116-> TypeError: ('expression value is: %s', [3356])
+2021-12-30 13:59:18,852: WARNING: CRUD_operation_db.py-> delete_db_data-> Line 111-> expression value is: [{'setgwett': 'asddgf vqeet'}]
+2021-12-30 13:59:18,852: ERROR: CRUD_operation_db.py-> delete_db_data-> Line 116-> TypeError: ('expression value is: %s', [{'setgwett': 'asddgf vqeet'}])
+2021-12-30 13:59:18,951: ERROR: CRUD_operation_db.py-> create_db_data-> Line 206-> IntegrityError: 1062 (23000): Duplicate entry 'id_2' for key 'test_table.PRIMARY'
+2021-12-30 13:59:19,008: ERROR: CRUD_operation_db.py-> create_db_data-> Line 203-> ProgrammingError: 1054 (42S22): Unknown column 'extra' in 'field list'
+2021-12-30 13:59:19,034: ERROR: CRUD_operation_db.py-> create_db_data-> Line 215-> AttributeError: 'list' object has no attribute 'keys'
+2021-12-30 13:59:19,063: ERROR: CRUD_operation_db.py-> create_db_data-> Line 203-> ProgrammingError: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '1234.None (id,title,original_title,original_title_romanised,image,movie_banner,d' at line 1
+2021-12-30 13:59:19,090: ERROR: CRUD_operation_db.py-> create_db_data-> Line 203-> ProgrammingError: 1049 (42000): Unknown database 'none'
+2021-12-30 13:59:19,117: WARNING: CRUD_operation_db.py-> update_db_data-> Line 167-> set_value:None target_exp:None
+2021-12-30 13:59:19,172: WARNING: CRUD_operation_db.py-> update_db_data-> Line 167-> set_value:['original_title', 'an original title'] target_exp:None
+2021-12-30 13:59:19,196: WARNING: CRUD_operation_db.py-> update_db_data-> Line 167-> set_value:[] target_exp:[]
+2021-12-30 13:59:19,219: WARNING: CRUD_operation_db.py-> update_db_data-> Line 167-> set_value:34567 target_exp:576547
+2021-12-30 13:59:19,243: ERROR: CRUD_operation_db.py-> update_db_data-> Line 172-> IntegrityError: 1062 (23000): Duplicate entry 'id_2' for key 'test_table.PRIMARY'
+2021-12-30 13:59:19,373: ERROR: CRUD_operation_db.py-> view_db_data-> Line 77-> ProgrammingError: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '.wrong tanle' at line 1
+2021-12-30 13:59:19,396: ERROR: CRUD_operation_db.py-> view_db_data-> Line 77-> ProgrammingError: 1054 (42S22): Unknown column 'tititit' in 'field list'
+2021-12-30 13:59:19,421: ERROR: CRUD_operation_db.py-> view_db_data-> Line 77-> ProgrammingError: 1054 (42S22): Unknown column 'e3e' in 'where clause'
+2021-12-30 15:24:39,189: ERROR: CRUD_operation_db.py-> delete_db_data-> Line 119-> ProgrammingError: 1054 (42S22): Unknown column 'ids' in 'where clause'
+2021-12-30 15:24:39,216: ERROR: CRUD_operation_db.py-> delete_db_data-> Line 122-> DataError: 1292 (22007): Truncated incorrect DOUBLE value: 'id_2'
+2021-12-30 15:24:39,237: WARNING: CRUD_operation_db.py-> delete_db_data-> Line 111-> expression value is: 123
+2021-12-30 15:24:39,238: ERROR: CRUD_operation_db.py-> delete_db_data-> Line 116-> TypeError: ('expression value is: %s', 123)
+2021-12-30 15:24:39,258: WARNING: CRUD_operation_db.py-> delete_db_data-> Line 111-> expression value is: 
+2021-12-30 15:24:39,258: ERROR: CRUD_operation_db.py-> delete_db_data-> Line 116-> TypeError: ('expression value is: %s', '')
+2021-12-30 15:24:39,280: WARNING: CRUD_operation_db.py-> delete_db_data-> Line 111-> expression value is: [3356]
+2021-12-30 15:24:39,280: ERROR: CRUD_operation_db.py-> delete_db_data-> Line 116-> TypeError: ('expression value is: %s', [3356])
+2021-12-30 15:24:39,301: WARNING: CRUD_operation_db.py-> delete_db_data-> Line 111-> expression value is: [{'setgwett': 'asddgf vqeet'}]
+2021-12-30 15:24:39,301: ERROR: CRUD_operation_db.py-> delete_db_data-> Line 116-> TypeError: ('expression value is: %s', [{'setgwett': 'asddgf vqeet'}])
+2021-12-30 15:24:39,381: ERROR: CRUD_operation_db.py-> create_db_data-> Line 206-> IntegrityError: 1062 (23000): Duplicate entry 'id_2' for key 'test_table.PRIMARY'
+2021-12-30 15:24:39,428: ERROR: CRUD_operation_db.py-> create_db_data-> Line 203-> ProgrammingError: 1054 (42S22): Unknown column 'extra' in 'field list'
+2021-12-30 15:24:39,448: ERROR: CRUD_operation_db.py-> create_db_data-> Line 215-> AttributeError: 'list' object has no attribute 'keys'
+2021-12-30 15:24:39,471: ERROR: CRUD_operation_db.py-> create_db_data-> Line 203-> ProgrammingError: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '1234.None (id,title,original_title,original_title_romanised,image,movie_banner,d' at line 1
+2021-12-30 15:24:39,494: ERROR: CRUD_operation_db.py-> create_db_data-> Line 203-> ProgrammingError: 1049 (42000): Unknown database 'none'
+2021-12-30 15:24:39,515: WARNING: CRUD_operation_db.py-> update_db_data-> Line 167-> set_value:None target_exp:None
+2021-12-30 15:24:39,563: WARNING: CRUD_operation_db.py-> update_db_data-> Line 167-> set_value:['original_title', 'an original title'] target_exp:None
+2021-12-30 15:24:39,584: WARNING: CRUD_operation_db.py-> update_db_data-> Line 167-> set_value:[] target_exp:[]
+2021-12-30 15:24:39,604: WARNING: CRUD_operation_db.py-> update_db_data-> Line 167-> set_value:34567 target_exp:576547
+2021-12-30 15:24:39,628: ERROR: CRUD_operation_db.py-> update_db_data-> Line 172-> IntegrityError: 1062 (23000): Duplicate entry 'id_2' for key 'test_table.PRIMARY'
+2021-12-30 15:24:39,756: ERROR: CRUD_operation_db.py-> view_db_data-> Line 77-> ProgrammingError: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '.wrong tanle' at line 1
+2021-12-30 15:24:39,782: ERROR: CRUD_operation_db.py-> view_db_data-> Line 77-> ProgrammingError: 1054 (42S22): Unknown column 'tititit' in 'field list'
+2021-12-30 15:24:39,807: ERROR: CRUD_operation_db.py-> view_db_data-> Line 77-> ProgrammingError: 1054 (42S22): Unknown column 'e3e' in 'where clause'
+2021-12-30 15:56:05,234: ERROR: CRUD_operation_db.py-> delete_db_data-> Line 119-> ProgrammingError: 1054 (42S22): Unknown column 'ids' in 'where clause'
+2021-12-30 15:56:05,263: ERROR: CRUD_operation_db.py-> delete_db_data-> Line 122-> DataError: 1292 (22007): Truncated incorrect DOUBLE value: 'id_2'
+2021-12-30 15:56:05,290: WARNING: CRUD_operation_db.py-> delete_db_data-> Line 111-> expression value is: 123
+2021-12-30 15:56:05,290: ERROR: CRUD_operation_db.py-> delete_db_data-> Line 116-> TypeError: ('expression value is: %s', 123)
+2021-12-30 15:56:05,315: WARNING: CRUD_operation_db.py-> delete_db_data-> Line 111-> expression value is: 
+2021-12-30 15:56:05,316: ERROR: CRUD_operation_db.py-> delete_db_data-> Line 116-> TypeError: ('expression value is: %s', '')
+2021-12-30 15:56:05,344: WARNING: CRUD_operation_db.py-> delete_db_data-> Line 111-> expression value is: [3356]
+2021-12-30 15:56:05,345: ERROR: CRUD_operation_db.py-> delete_db_data-> Line 116-> TypeError: ('expression value is: %s', [3356])
+2021-12-30 15:56:05,370: WARNING: CRUD_operation_db.py-> delete_db_data-> Line 111-> expression value is: [{'setgwett': 'asddgf vqeet'}]
+2021-12-30 15:56:05,371: ERROR: CRUD_operation_db.py-> delete_db_data-> Line 116-> TypeError: ('expression value is: %s', [{'setgwett': 'asddgf vqeet'}])
+2021-12-30 15:56:05,468: ERROR: CRUD_operation_db.py-> create_db_data-> Line 206-> IntegrityError: 1062 (23000): Duplicate entry 'id_2' for key 'test_table.PRIMARY'
+2021-12-30 15:56:05,530: ERROR: CRUD_operation_db.py-> create_db_data-> Line 203-> ProgrammingError: 1054 (42S22): Unknown column 'extra' in 'field list'
+2021-12-30 15:56:05,556: ERROR: CRUD_operation_db.py-> create_db_data-> Line 215-> AttributeError: 'list' object has no attribute 'keys'
+2021-12-30 15:56:05,584: ERROR: CRUD_operation_db.py-> create_db_data-> Line 203-> ProgrammingError: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '1234.None (id,title,original_title,original_title_romanised,image,movie_banner,d' at line 1
+2021-12-30 15:56:05,614: ERROR: CRUD_operation_db.py-> create_db_data-> Line 203-> ProgrammingError: 1049 (42000): Unknown database 'none'
+2021-12-30 15:56:05,639: WARNING: CRUD_operation_db.py-> update_db_data-> Line 167-> set_value:None target_exp:None
+2021-12-30 15:56:05,698: WARNING: CRUD_operation_db.py-> update_db_data-> Line 167-> set_value:['original_title', 'an original title'] target_exp:None
+2021-12-30 15:56:05,725: WARNING: CRUD_operation_db.py-> update_db_data-> Line 167-> set_value:[] target_exp:[]
+2021-12-30 15:56:05,751: WARNING: CRUD_operation_db.py-> update_db_data-> Line 167-> set_value:34567 target_exp:576547
+2021-12-30 15:56:05,781: ERROR: CRUD_operation_db.py-> update_db_data-> Line 172-> IntegrityError: 1062 (23000): Duplicate entry 'id_2' for key 'test_table.PRIMARY'
+2021-12-30 15:56:05,918: ERROR: CRUD_operation_db.py-> view_db_data-> Line 77-> ProgrammingError: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '.wrong tanle' at line 1
+2021-12-30 15:56:05,945: ERROR: CRUD_operation_db.py-> view_db_data-> Line 77-> ProgrammingError: 1054 (42S22): Unknown column 'tititit' in 'field list'
+2021-12-30 15:56:05,975: ERROR: CRUD_operation_db.py-> view_db_data-> Line 77-> ProgrammingError: 1054 (42S22): Unknown column 'e3e' in 'where clause'
+2021-12-30 15:58:03,500: ERROR: CRUD_operation_db.py-> delete_db_data-> Line 119-> ProgrammingError: 1054 (42S22): Unknown column 'ids' in 'where clause'
+2021-12-30 15:58:03,530: ERROR: CRUD_operation_db.py-> delete_db_data-> Line 122-> DataError: 1292 (22007): Truncated incorrect DOUBLE value: 'id_2'
+2021-12-30 15:58:03,559: WARNING: CRUD_operation_db.py-> delete_db_data-> Line 111-> expression value is: 123
+2021-12-30 15:58:03,559: ERROR: CRUD_operation_db.py-> delete_db_data-> Line 116-> TypeError: ('expression value is: %s', 123)
+2021-12-30 15:58:03,585: WARNING: CRUD_operation_db.py-> delete_db_data-> Line 111-> expression value is: 
+2021-12-30 15:58:03,586: ERROR: CRUD_operation_db.py-> delete_db_data-> Line 116-> TypeError: ('expression value is: %s', '')
+2021-12-30 15:58:03,613: WARNING: CRUD_operation_db.py-> delete_db_data-> Line 111-> expression value is: [3356]
+2021-12-30 15:58:03,613: ERROR: CRUD_operation_db.py-> delete_db_data-> Line 116-> TypeError: ('expression value is: %s', [3356])
+2021-12-30 15:58:03,638: WARNING: CRUD_operation_db.py-> delete_db_data-> Line 111-> expression value is: [{'setgwett': 'asddgf vqeet'}]
+2021-12-30 15:58:03,639: ERROR: CRUD_operation_db.py-> delete_db_data-> Line 116-> TypeError: ('expression value is: %s', [{'setgwett': 'asddgf vqeet'}])
+2021-12-30 15:58:03,727: ERROR: CRUD_operation_db.py-> create_db_data-> Line 206-> IntegrityError: 1062 (23000): Duplicate entry 'id_2' for key 'test_table.PRIMARY'
+2021-12-30 15:58:03,781: ERROR: CRUD_operation_db.py-> create_db_data-> Line 203-> ProgrammingError: 1054 (42S22): Unknown column 'extra' in 'field list'
+2021-12-30 15:58:03,803: ERROR: CRUD_operation_db.py-> create_db_data-> Line 215-> AttributeError: 'list' object has no attribute 'keys'
+2021-12-30 15:58:03,829: ERROR: CRUD_operation_db.py-> create_db_data-> Line 203-> ProgrammingError: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '1234.None (id,title,original_title,original_title_romanised,image,movie_banner,d' at line 1
+2021-12-30 15:58:03,855: ERROR: CRUD_operation_db.py-> create_db_data-> Line 203-> ProgrammingError: 1049 (42000): Unknown database 'none'
+2021-12-30 15:58:03,880: WARNING: CRUD_operation_db.py-> update_db_data-> Line 167-> set_value:None target_exp:None
+2021-12-30 15:58:03,932: WARNING: CRUD_operation_db.py-> update_db_data-> Line 167-> set_value:['original_title', 'an original title'] target_exp:None
+2021-12-30 15:58:03,956: WARNING: CRUD_operation_db.py-> update_db_data-> Line 167-> set_value:[] target_exp:[]
+2021-12-30 15:58:03,980: WARNING: CRUD_operation_db.py-> update_db_data-> Line 167-> set_value:34567 target_exp:576547
+2021-12-30 15:58:03,998: ERROR: CRUD_operation_db.py-> update_db_data-> Line 172-> IntegrityError: 1062 (23000): Duplicate entry 'id_2' for key 'test_table.PRIMARY'
+2021-12-30 15:58:04,078: ERROR: CRUD_operation_db.py-> view_db_data-> Line 77-> ProgrammingError: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '.wrong tanle' at line 1
+2021-12-30 15:58:04,097: ERROR: CRUD_operation_db.py-> view_db_data-> Line 77-> ProgrammingError: 1054 (42S22): Unknown column 'tititit' in 'field list'
+2021-12-30 15:58:04,117: ERROR: CRUD_operation_db.py-> view_db_data-> Line 77-> ProgrammingError: 1054 (42S22): Unknown column 'e3e' in 'where clause'
+2021-12-30 16:10:24,829: ERROR: CRUD_operation_db.py-> delete_db_data-> Line 119-> ProgrammingError: 1054 (42S22): Unknown column 'ids' in 'where clause'
+2021-12-30 16:10:24,845: ERROR: CRUD_operation_db.py-> delete_db_data-> Line 122-> DataError: 1292 (22007): Truncated incorrect DOUBLE value: 'id_2'
+2021-12-30 16:10:24,859: WARNING: CRUD_operation_db.py-> delete_db_data-> Line 111-> expression value is: 123
+2021-12-30 16:10:24,859: ERROR: CRUD_operation_db.py-> delete_db_data-> Line 116-> TypeError: ('expression value is: %s', 123)
+2021-12-30 16:10:24,873: WARNING: CRUD_operation_db.py-> delete_db_data-> Line 111-> expression value is: 
+2021-12-30 16:10:24,873: ERROR: CRUD_operation_db.py-> delete_db_data-> Line 116-> TypeError: ('expression value is: %s', '')
+2021-12-30 16:10:24,888: WARNING: CRUD_operation_db.py-> delete_db_data-> Line 111-> expression value is: [3356]
+2021-12-30 16:10:24,888: ERROR: CRUD_operation_db.py-> delete_db_data-> Line 116-> TypeError: ('expression value is: %s', [3356])
+2021-12-30 16:10:24,901: WARNING: CRUD_operation_db.py-> delete_db_data-> Line 111-> expression value is: [{'setgwett': 'asddgf vqeet'}]
+2021-12-30 16:10:24,901: ERROR: CRUD_operation_db.py-> delete_db_data-> Line 116-> TypeError: ('expression value is: %s', [{'setgwett': 'asddgf vqeet'}])
+2021-12-30 16:10:24,958: ERROR: CRUD_operation_db.py-> create_db_data-> Line 206-> IntegrityError: 1062 (23000): Duplicate entry 'id_2' for key 'test_table.PRIMARY'
+2021-12-30 16:10:25,001: ERROR: CRUD_operation_db.py-> create_db_data-> Line 203-> ProgrammingError: 1054 (42S22): Unknown column 'extra' in 'field list'
+2021-12-30 16:10:25,022: ERROR: CRUD_operation_db.py-> create_db_data-> Line 215-> AttributeError: 'list' object has no attribute 'keys'
+2021-12-30 16:10:25,045: ERROR: CRUD_operation_db.py-> create_db_data-> Line 203-> ProgrammingError: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '1234.None (id,title,original_title,original_title_romanised,image,movie_banner,d' at line 1
+2021-12-30 16:10:25,068: ERROR: CRUD_operation_db.py-> create_db_data-> Line 203-> ProgrammingError: 1049 (42000): Unknown database 'none'
+2021-12-30 16:10:25,092: WARNING: CRUD_operation_db.py-> update_db_data-> Line 167-> set_value:None target_exp:None
+2021-12-30 16:10:25,141: WARNING: CRUD_operation_db.py-> update_db_data-> Line 167-> set_value:['original_title', 'an original title'] target_exp:None
+2021-12-30 16:10:25,162: WARNING: CRUD_operation_db.py-> update_db_data-> Line 167-> set_value:[] target_exp:[]
+2021-12-30 16:10:25,184: WARNING: CRUD_operation_db.py-> update_db_data-> Line 167-> set_value:34567 target_exp:576547
+2021-12-30 16:10:25,209: ERROR: CRUD_operation_db.py-> update_db_data-> Line 172-> IntegrityError: 1062 (23000): Duplicate entry 'id_2' for key 'test_table.PRIMARY'
+2021-12-30 16:10:25,323: ERROR: CRUD_operation_db.py-> view_db_data-> Line 77-> ProgrammingError: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '.wrong tanle' at line 1
+2021-12-30 16:10:25,346: ERROR: CRUD_operation_db.py-> view_db_data-> Line 77-> ProgrammingError: 1054 (42S22): Unknown column 'tititit' in 'field list'
+2021-12-30 16:10:25,371: ERROR: CRUD_operation_db.py-> view_db_data-> Line 77-> ProgrammingError: 1054 (42S22): Unknown column 'e3e' in 'where clause'
+2021-12-30 16:26:03,170: ERROR: CRUD_operation_db.py-> delete_db_data-> Line 119-> ProgrammingError: 1054 (42S22): Unknown column 'ids' in 'where clause'
+2021-12-30 16:26:03,201: ERROR: CRUD_operation_db.py-> delete_db_data-> Line 122-> DataError: 1292 (22007): Truncated incorrect DOUBLE value: 'id_2'
+2021-12-30 16:26:03,232: WARNING: CRUD_operation_db.py-> delete_db_data-> Line 111-> expression value is: 123
+2021-12-30 16:26:03,232: ERROR: CRUD_operation_db.py-> delete_db_data-> Line 116-> TypeError: ('expression value is: %s', 123)
+2021-12-30 16:26:03,257: WARNING: CRUD_operation_db.py-> delete_db_data-> Line 111-> expression value is: 
+2021-12-30 16:26:03,258: ERROR: CRUD_operation_db.py-> delete_db_data-> Line 116-> TypeError: ('expression value is: %s', '')
+2021-12-30 16:26:03,281: WARNING: CRUD_operation_db.py-> delete_db_data-> Line 111-> expression value is: [3356]
+2021-12-30 16:26:03,281: ERROR: CRUD_operation_db.py-> delete_db_data-> Line 116-> TypeError: ('expression value is: %s', [3356])
+2021-12-30 16:26:03,302: WARNING: CRUD_operation_db.py-> delete_db_data-> Line 111-> expression value is: [{'setgwett': 'asddgf vqeet'}]
+2021-12-30 16:26:03,303: ERROR: CRUD_operation_db.py-> delete_db_data-> Line 116-> TypeError: ('expression value is: %s', [{'setgwett': 'asddgf vqeet'}])
+2021-12-30 16:26:03,390: ERROR: CRUD_operation_db.py-> create_db_data-> Line 206-> IntegrityError: 1062 (23000): Duplicate entry 'id_2' for key 'test_table.PRIMARY'
+2021-12-30 16:26:03,442: ERROR: CRUD_operation_db.py-> create_db_data-> Line 203-> ProgrammingError: 1054 (42S22): Unknown column 'extra' in 'field list'
+2021-12-30 16:26:03,466: ERROR: CRUD_operation_db.py-> create_db_data-> Line 215-> AttributeError: 'list' object has no attribute 'keys'
+2021-12-30 16:26:03,495: ERROR: CRUD_operation_db.py-> create_db_data-> Line 203-> ProgrammingError: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '1234.None (id,title,original_title,original_title_romanised,image,movie_banner,d' at line 1
+2021-12-30 16:26:03,522: ERROR: CRUD_operation_db.py-> create_db_data-> Line 203-> ProgrammingError: 1049 (42000): Unknown database 'none'
+2021-12-30 16:26:03,549: WARNING: CRUD_operation_db.py-> update_db_data-> Line 167-> set_value:None target_exp:None
+2021-12-30 16:26:03,594: WARNING: CRUD_operation_db.py-> update_db_data-> Line 167-> set_value:['original_title', 'an original title'] target_exp:None
+2021-12-30 16:26:03,617: WARNING: CRUD_operation_db.py-> update_db_data-> Line 167-> set_value:[] target_exp:[]
+2021-12-30 16:26:03,638: WARNING: CRUD_operation_db.py-> update_db_data-> Line 167-> set_value:34567 target_exp:576547
+2021-12-30 16:26:03,660: ERROR: CRUD_operation_db.py-> update_db_data-> Line 172-> IntegrityError: 1062 (23000): Duplicate entry 'id_2' for key 'test_table.PRIMARY'
+2021-12-30 16:26:03,792: ERROR: CRUD_operation_db.py-> view_db_data-> Line 77-> ProgrammingError: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '.wrong tanle' at line 1
+2021-12-30 16:26:03,819: ERROR: CRUD_operation_db.py-> view_db_data-> Line 77-> ProgrammingError: 1054 (42S22): Unknown column 'tititit' in 'field list'
+2021-12-30 16:26:03,848: ERROR: CRUD_operation_db.py-> view_db_data-> Line 77-> ProgrammingError: 1054 (42S22): Unknown column 'e3e' in 'where clause'
+2021-12-30 20:06:52,445: ERROR: CRUD_operation_db.py-> create_db-> Line 203-> ProgrammingError: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '1234.None (id,title,original_title,original_title_romanised,image,movie_banner,d' at line 1
+2021-12-30 20:06:52,467: ERROR: CRUD_operation_db.py-> create_db-> Line 203-> ProgrammingError: 1049 (42000): Unknown database 'none'
+2021-12-30 20:06:52,512: ERROR: CRUD_operation_db.py-> delete_db_data-> Line 119-> ProgrammingError: 1054 (42S22): Unknown column 'ids' in 'where clause'
+2021-12-30 20:06:52,532: ERROR: CRUD_operation_db.py-> delete_db_data-> Line 122-> DataError: 1292 (22007): Truncated incorrect DOUBLE value: 'id_2'
+2021-12-30 20:06:52,546: WARNING: CRUD_operation_db.py-> delete_db_data-> Line 111-> expression value is: 123
+2021-12-30 20:06:52,547: ERROR: CRUD_operation_db.py-> delete_db_data-> Line 116-> TypeError: ('expression value is: %s', 123)
+2021-12-30 20:06:52,560: WARNING: CRUD_operation_db.py-> delete_db_data-> Line 111-> expression value is: 
+2021-12-30 20:06:52,561: ERROR: CRUD_operation_db.py-> delete_db_data-> Line 116-> TypeError: ('expression value is: %s', '')
+2021-12-30 20:06:52,578: WARNING: CRUD_operation_db.py-> delete_db_data-> Line 111-> expression value is: [3356]
+2021-12-30 20:06:52,578: ERROR: CRUD_operation_db.py-> delete_db_data-> Line 116-> TypeError: ('expression value is: %s', [3356])
+2021-12-30 20:06:52,594: WARNING: CRUD_operation_db.py-> delete_db_data-> Line 111-> expression value is: [{'setgwett': 'asddgf vqeet'}]
+2021-12-30 20:06:52,594: ERROR: CRUD_operation_db.py-> delete_db_data-> Line 116-> TypeError: ('expression value is: %s', [{'setgwett': 'asddgf vqeet'}])
+2021-12-30 20:06:52,667: ERROR: CRUD_operation_db.py-> create_db-> Line 206-> IntegrityError: 1062 (23000): Duplicate entry 'id_2' for key 'test_table.PRIMARY'
+2021-12-30 20:06:52,681: ERROR: CRUD_operation_db.py-> create_db-> Line 203-> ProgrammingError: 1054 (42S22): Unknown column 'extra' in 'field list'
+2021-12-30 20:06:52,694: ERROR: CRUD_operation_db.py-> create_db-> Line 215-> AttributeError: 'list' object has no attribute 'keys'
+2021-12-30 20:06:52,770: ERROR: CRUD_operation_db.py-> view_db_data-> Line 77-> ProgrammingError: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '.wrong tanle' at line 1
+2021-12-30 20:06:52,788: ERROR: CRUD_operation_db.py-> view_db_data-> Line 77-> ProgrammingError: 1054 (42S22): Unknown column 'tititit' in 'field list'
+2021-12-30 20:06:52,805: ERROR: CRUD_operation_db.py-> view_db_data-> Line 77-> ProgrammingError: 1054 (42S22): Unknown column 'e3e' in 'where clause'
+2021-12-30 20:06:52,821: WARNING: CRUD_operation_db.py-> update_db_data-> Line 167-> set_value:None target_exp:None
+2021-12-30 20:06:52,872: WARNING: CRUD_operation_db.py-> update_db_data-> Line 167-> set_value:['original_title', 'an original title'] target_exp:None
+2021-12-30 20:06:52,894: WARNING: CRUD_operation_db.py-> update_db_data-> Line 167-> set_value:[] target_exp:[]
+2021-12-30 20:06:52,913: WARNING: CRUD_operation_db.py-> update_db_data-> Line 167-> set_value:34567 target_exp:576547
+2021-12-30 20:06:52,934: ERROR: CRUD_operation_db.py-> update_db_data-> Line 172-> IntegrityError: 1062 (23000): Duplicate entry 'id_2' for key 'test_table.PRIMARY'
+2021-12-31 10:41:41,262: ERROR: CRUD_operation_db.py-> create_db_data-> Line 218-> ProgrammingError: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '1234.None (id,title,original_title,original_title_romanised,image,movie_banner,d' at line 1
+2021-12-31 10:41:41,304: ERROR: CRUD_operation_db.py-> create_db_data-> Line 218-> ProgrammingError: 1049 (42000): Unknown database 'none'
+2021-12-31 10:41:41,451: ERROR: CRUD_operation_db.py-> delete_db_data-> Line 125-> ProgrammingError: 1054 (42S22): Unknown column 'ids' in 'where clause'
+2021-12-31 10:41:41,486: ERROR: CRUD_operation_db.py-> delete_db_data-> Line 128-> DataError: 1292 (22007): Truncated incorrect DOUBLE value: 'id_2'
+2021-12-31 10:41:41,514: WARNING: CRUD_operation_db.py-> delete_db_data-> Line 117-> expression value is: 123
+2021-12-31 10:41:41,514: ERROR: CRUD_operation_db.py-> delete_db_data-> Line 122-> TypeError: ('expression value is: %s', 123)
+2021-12-31 10:41:41,542: WARNING: CRUD_operation_db.py-> delete_db_data-> Line 117-> expression value is: 
+2021-12-31 10:41:41,542: ERROR: CRUD_operation_db.py-> delete_db_data-> Line 122-> TypeError: ('expression value is: %s', '')
+2021-12-31 10:41:41,573: WARNING: CRUD_operation_db.py-> delete_db_data-> Line 117-> expression value is: [3356]
+2021-12-31 10:41:41,573: ERROR: CRUD_operation_db.py-> delete_db_data-> Line 122-> TypeError: ('expression value is: %s', [3356])
+2021-12-31 10:41:41,603: WARNING: CRUD_operation_db.py-> delete_db_data-> Line 117-> expression value is: [{'setgwett': 'asddgf vqeet'}]
+2021-12-31 10:41:41,603: ERROR: CRUD_operation_db.py-> delete_db_data-> Line 122-> TypeError: ('expression value is: %s', [{'setgwett': 'asddgf vqeet'}])
+2021-12-31 10:41:41,733: ERROR: CRUD_operation_db.py-> create_db_data-> Line 221-> IntegrityError: 1062 (23000): Duplicate entry 'id_2' for key 'test_table.PRIMARY'
+2021-12-31 10:41:41,761: ERROR: CRUD_operation_db.py-> create_db_data-> Line 218-> ProgrammingError: 1054 (42S22): Unknown column 'extra' in 'field list'
+2021-12-31 10:41:41,786: ERROR: CRUD_operation_db.py-> create_db_data-> Line 230-> AttributeError: 'list' object has no attribute 'keys'
+2021-12-31 10:41:41,902: ERROR: CRUD_operation_db.py-> view_db_data-> Line 81-> ProgrammingError: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '.wrong tanle' at line 1
+2021-12-31 10:41:41,931: ERROR: CRUD_operation_db.py-> view_db_data-> Line 81-> ProgrammingError: 1054 (42S22): Unknown column 'tititit' in 'field list'
+2021-12-31 10:41:41,960: ERROR: CRUD_operation_db.py-> view_db_data-> Line 81-> ProgrammingError: 1054 (42S22): Unknown column 'e3e' in 'where clause'
+2021-12-31 10:41:42,065: WARNING: CRUD_operation_db.py-> update_db_data-> Line 180-> set_value:None target_exp:None
+2021-12-31 10:41:42,092: WARNING: CRUD_operation_db.py-> update_db_data-> Line 180-> set_value:['original_title', 'an original title'] target_exp:None
+2021-12-31 10:41:42,119: WARNING: CRUD_operation_db.py-> update_db_data-> Line 180-> set_value:[] target_exp:[]
+2021-12-31 10:41:42,147: WARNING: CRUD_operation_db.py-> update_db_data-> Line 180-> set_value:34567 target_exp:576547
+2021-12-31 10:41:42,178: ERROR: CRUD_operation_db.py-> update_db_data-> Line 185-> IntegrityError: 1062 (23000): Duplicate entry 'id_2' for key 'test_table.PRIMARY'
+2021-12-31 14:41:33,874: ERROR: CRUD_operation_db.py-> create_db_data-> Line 233-> ProgrammingError: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '1234.None (id,title,original_title,original_title_romanised,image,movie_banner,d' at line 1
+2021-12-31 14:41:33,912: ERROR: CRUD_operation_db.py-> create_db_data-> Line 233-> ProgrammingError: 1049 (42000): Unknown database 'none'
+2021-12-31 14:41:34,040: ERROR: CRUD_operation_db.py-> delete_db_data-> Line 134-> ProgrammingError: 1054 (42S22): Unknown column 'ids' in 'where clause'
+2021-12-31 14:41:34,071: ERROR: CRUD_operation_db.py-> delete_db_data-> Line 137-> DataError: 1292 (22007): Truncated incorrect DOUBLE value: 'id_2'
+2021-12-31 14:41:34,100: WARNING: CRUD_operation_db.py-> delete_db_data-> Line 125-> expression value is: 123
+2021-12-31 14:41:34,100: ERROR: CRUD_operation_db.py-> delete_db_data-> Line 131-> TypeError: expression value is:123
+2021-12-31 14:41:34,126: WARNING: CRUD_operation_db.py-> delete_db_data-> Line 125-> expression value is: 
+2021-12-31 14:41:34,126: ERROR: CRUD_operation_db.py-> delete_db_data-> Line 131-> TypeError: expression value is:
+2021-12-31 14:41:34,156: WARNING: CRUD_operation_db.py-> delete_db_data-> Line 125-> expression value is: [3356]
+2021-12-31 14:41:34,156: ERROR: CRUD_operation_db.py-> delete_db_data-> Line 131-> TypeError: expression value is:[3356]
+2021-12-31 14:41:34,182: WARNING: CRUD_operation_db.py-> delete_db_data-> Line 125-> expression value is: [{'setgwett': 'asddgf vqeet'}]
+2021-12-31 14:41:34,182: ERROR: CRUD_operation_db.py-> delete_db_data-> Line 131-> TypeError: expression value is:[{'setgwett': 'asddgf vqeet'}]
+2021-12-31 14:41:34,310: ERROR: CRUD_operation_db.py-> create_db_data-> Line 236-> IntegrityError: 1062 (23000): Duplicate entry 'id_2' for key 'test_table.PRIMARY'
+2021-12-31 14:41:34,338: ERROR: CRUD_operation_db.py-> create_db_data-> Line 233-> ProgrammingError: 1054 (42S22): Unknown column 'extra' in 'field list'
+2021-12-31 14:41:34,364: ERROR: CRUD_operation_db.py-> create_db_data-> Line 245-> AttributeError: 'list' object has no attribute 'keys'
+2021-12-31 14:41:34,475: ERROR: CRUD_operation_db.py-> view_db_data-> Line 85-> ProgrammingError: 1146 (42S02): Table 'fake_db.fake_db' doesn't exist
+2021-12-31 14:41:34,517: ERROR: CRUD_operation_db.py-> view_db_data-> Line 85-> ProgrammingError: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '.wrong tanle' at line 1
+2021-12-31 14:41:34,550: ERROR: CRUD_operation_db.py-> view_db_data-> Line 85-> ProgrammingError: 1054 (42S22): Unknown column 'tititit' in 'field list'
+2021-12-31 14:41:34,598: ERROR: CRUD_operation_db.py-> view_db_data-> Line 85-> ProgrammingError: 1146 (42S02): Table 'fake_db.fake_db' doesn't exist
+2021-12-31 14:41:34,704: WARNING: CRUD_operation_db.py-> update_db_data-> Line 191-> set_value:None target_exp:None
+2021-12-31 14:41:34,731: WARNING: CRUD_operation_db.py-> update_db_data-> Line 191-> set_value:['original_title', 'an original title'] target_exp:None
+2021-12-31 14:41:34,757: WARNING: CRUD_operation_db.py-> update_db_data-> Line 191-> set_value:[] target_exp:[]
+2021-12-31 14:41:34,785: WARNING: CRUD_operation_db.py-> update_db_data-> Line 191-> set_value:34567 target_exp:576547
+2021-12-31 14:41:34,815: ERROR: CRUD_operation_db.py-> update_db_data-> Line 196-> IntegrityError: 1062 (23000): Duplicate entry 'id_2' for key 'test_table.PRIMARY'
+2021-12-31 14:42:43,505: ERROR: CRUD_operation_db.py-> create_db_data-> Line 233-> ProgrammingError: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '1234.None (id,title,original_title,original_title_romanised,image,movie_banner,d' at line 1
+2021-12-31 14:42:43,520: ERROR: CRUD_operation_db.py-> create_db_data-> Line 233-> ProgrammingError: 1049 (42000): Unknown database 'none'
+2021-12-31 14:42:43,594: ERROR: CRUD_operation_db.py-> delete_db_data-> Line 134-> ProgrammingError: 1054 (42S22): Unknown column 'ids' in 'where clause'
+2021-12-31 14:42:43,624: ERROR: CRUD_operation_db.py-> delete_db_data-> Line 137-> DataError: 1292 (22007): Truncated incorrect DOUBLE value: 'id_2'
+2021-12-31 14:42:43,639: WARNING: CRUD_operation_db.py-> delete_db_data-> Line 125-> expression value is: 123
+2021-12-31 14:42:43,639: ERROR: CRUD_operation_db.py-> delete_db_data-> Line 131-> TypeError: expression value is:123
+2021-12-31 14:42:43,655: WARNING: CRUD_operation_db.py-> delete_db_data-> Line 125-> expression value is: 
+2021-12-31 14:42:43,655: ERROR: CRUD_operation_db.py-> delete_db_data-> Line 131-> TypeError: expression value is:
+2021-12-31 14:42:43,671: WARNING: CRUD_operation_db.py-> delete_db_data-> Line 125-> expression value is: [3356]
+2021-12-31 14:42:43,672: ERROR: CRUD_operation_db.py-> delete_db_data-> Line 131-> TypeError: expression value is:[3356]
+2021-12-31 14:42:43,692: WARNING: CRUD_operation_db.py-> delete_db_data-> Line 125-> expression value is: [{'setgwett': 'asddgf vqeet'}]
+2021-12-31 14:42:43,692: ERROR: CRUD_operation_db.py-> delete_db_data-> Line 131-> TypeError: expression value is:[{'setgwett': 'asddgf vqeet'}]
+2021-12-31 14:42:43,774: ERROR: CRUD_operation_db.py-> create_db_data-> Line 236-> IntegrityError: 1062 (23000): Duplicate entry 'id_2' for key 'test_table.PRIMARY'
+2021-12-31 14:42:43,795: ERROR: CRUD_operation_db.py-> create_db_data-> Line 233-> ProgrammingError: 1054 (42S22): Unknown column 'extra' in 'field list'
+2021-12-31 14:42:43,808: ERROR: CRUD_operation_db.py-> create_db_data-> Line 245-> AttributeError: 'list' object has no attribute 'keys'
+2021-12-31 14:42:43,874: ERROR: CRUD_operation_db.py-> view_db_data-> Line 85-> ProgrammingError: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '.wrong tanle' at line 1
+2021-12-31 14:42:43,888: ERROR: CRUD_operation_db.py-> view_db_data-> Line 85-> ProgrammingError: 1054 (42S22): Unknown column 'tititit' in 'field list'
+2021-12-31 14:42:43,901: ERROR: CRUD_operation_db.py-> view_db_data-> Line 85-> ProgrammingError: 1054 (42S22): Unknown column 'e3e' in 'where clause'
+2021-12-31 14:42:43,965: WARNING: CRUD_operation_db.py-> update_db_data-> Line 191-> set_value:None target_exp:None
+2021-12-31 14:42:43,991: WARNING: CRUD_operation_db.py-> update_db_data-> Line 191-> set_value:['original_title', 'an original title'] target_exp:None
+2021-12-31 14:42:44,017: WARNING: CRUD_operation_db.py-> update_db_data-> Line 191-> set_value:[] target_exp:[]
+2021-12-31 14:42:44,043: WARNING: CRUD_operation_db.py-> update_db_data-> Line 191-> set_value:34567 target_exp:576547
+2021-12-31 14:42:44,071: ERROR: CRUD_operation_db.py-> update_db_data-> Line 196-> IntegrityError: 1062 (23000): Duplicate entry 'id_2' for key 'test_table.PRIMARY'
+2022-01-01 13:08:47,129:ERROR:ProgrammingError: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '.times TEXT,roi.currency TEXT,roi.percentage TEXT)' at line 1
+2022-01-01 13:08:47,129:ERROR:arguments value are 
+filename:uploadFile_csv.csv,
+primary_key_field:,
+pk_field_dtype: 
+2022-01-01 13:08:53,014:ERROR:ProgrammingError: 1146 (42S02): Table 'fileupload.uploadfile_csv' doesn't exist
+2022-01-01 13:08:53,014:ERROR:ProgrammingError: 1146 (42S02): Table 'fileupload.uploadfile_csv' doesn't exist
+2022-01-01 13:27:08,166:ERROR:ProgrammingError: 1054 (42S22): Unknown column 'release_data' in 'where clause'
+2022-01-01 13:31:31,307:ERROR:ProgrammingError: 1054 (42S22): Unknown column 'release_data' in 'where clause'
+2022-01-01 13:45:49,226: ERROR: crud_operation_db.py-> update_db_data-> Line 198-> ProgrammingError: 1054 (42S22): Unknown column 'release_data' in 'where clause'
+2022-01-01 13:50:57,885: ERROR: crud_operation_db.py-> update_db_data-> Line 198-> ProgrammingError: 1054 (42S22): Unknown column 'release_data' in 'where clause'
+2022-01-01 13:50:57,886: ERROR: upload_file.py-> do_POST-> Line 256-> Type error occured: ProgrammingError: 1054 (42S22): Unknown column 'release_data' in 'where clause'
+2022-01-01 14:03:42,058: ERROR: crud_operation_db.py-> update_db_data-> Line 198-> ProgrammingError: 1054 (42S22): Unknown column 'release_data' in 'where clause'
+2022-01-01 14:03:42,060: ERROR: upload_file.py-> do_POST-> Line 256-> ProgrammingError: 1054 (42S22): Unknown column 'release_data' in 'where clause'
+2022-01-01 14:23:17,383: ERROR: csv_db.py-> csv_to_db-> Line 90-> KeyError: "['measurements_elementMeasurements_Diameter', 'measurements_elementMeasurements_Depth', 'measurements_elementMeasurements_Height', 'measurements_elementMeasurements_Width', 'measurements_elementMeasurements_Weight'] not in index"
+2022-01-01 15:53:44,626: ERROR: csv_db.py-> csv_to_db-> Line 89-> DataError: 1264 (22003): Out of range value for column 'market_cap' at row 1
+2022-01-01 15:54:54,272: ERROR: csv_db.py-> csv_to_db-> Line 89-> DataError: 1264 (22003): Out of range value for column 'market_cap' at row 1
+2022-01-01 15:55:20,219: ERROR: csv_db.py-> csv_to_db-> Line 89-> DataError: 1264 (22003): Out of range value for column 'market_cap' at row 1
+2022-01-01 15:57:00,610: ERROR: csv_db.py-> csv_to_db-> Line 89-> DataError: 1264 (22003): Out of range value for column 'market_cap' at row 1
+2022-01-01 20:43:09,018: ERROR: upload_file.py-> do_POST-> Line 255-> TypeError: expected str, bytes or os.PathLike object, not list
+2022-01-01 20:43:09,311: ERROR: upload_file.py-> do_POST-> Line 255-> TypeError: expected str, bytes or os.PathLike object, not list
+2022-01-01 22:29:39,149: ERROR: csv_db.py-> csv_to_db-> Line 90-> TypeError: stat: path should be string, bytes, os.PathLike or integer, not _io.TextIOWrapper
+2022-01-01 22:32:26,177: ERROR: csv_db.py-> csv_to_db-> Line 90-> TypeError: stat: path should be string, bytes, os.PathLike or integer, not _io.TextIOWrapper
+2022-01-01 23:09:50,628: ERROR: crud_operation_db.py-> view_db_data-> Line 86-> ProgrammingError: 1146 (42S02): Table 'fileupload.ghiblistudioapi_html' doesn't exist
+2022-01-01 23:09:50,629: ERROR: upload_file.py-> do_GET-> Line 137-> ProgrammingError: 1146 (42S02): Table 'fileupload.ghiblistudioapi_html' doesn't exist
+2022-01-01 23:34:59,093: ERROR: csv_db.py-> csv_to_db-> Line 85-> ParserError: Error tokenizing data. C error: Expected 1 fields in line 85, saw 7
+
+2022-01-01 23:34:59,094: ERROR: csv_db.py-> csv_to_db-> Line 88-> arguments value are 
+filename:uploadFile_csv.csv,
+primary_key_field:,
+pk_field_dtype: 
+2022-01-02 11:20:13,234: ERROR: csv_db.py-> csv_to_db-> Line 85-> EmptyDataError: No columns to parse from file
+2022-01-02 11:20:13,235: ERROR: csv_db.py-> csv_to_db-> Line 88-> arguments value are 
+filename:uploadFile_csv.csv,
+primary_key_field:,
+pk_field_dtype: 
+2022-01-02 11:20:56,390: ERROR: csv_db.py-> csv_to_db-> Line 85-> EmptyDataError: No columns to parse from file
+2022-01-02 11:20:56,391: ERROR: csv_db.py-> csv_to_db-> Line 88-> arguments value are 
+filename:uploadFile_csv.csv,
+primary_key_field:,
+pk_field_dtype: 
+2022-01-02 11:44:20,520: ERROR: csv_db.py-> csv_to_db-> Line 85-> ParserError: Error tokenizing data. C error: Expected 1 fields in line 85, saw 7
+
+2022-01-02 11:44:20,521: ERROR: csv_db.py-> csv_to_db-> Line 88-> arguments value are 
+filename:uploadFile_csv.csv,
+primary_key_field:,
+pk_field_dtype: 
+2022-01-02 11:46:38,429: ERROR: csv_db.py-> csv_to_db-> Line 85-> ParserError: Error tokenizing data. C error: Expected 1 fields in line 85, saw 7
+
+2022-01-02 11:46:38,429: ERROR: csv_db.py-> csv_to_db-> Line 88-> arguments value are 
+filename:uploadFile_csv.csv,
+primary_key_field:,
+pk_field_dtype: 
+2022-01-02 17:55:59,634: ERROR: crud_operation_db.py-> create_db_data-> Line 245-> DatabaseError: 1366 (HY000): Incorrect integer value: '' for column 'isTimelineWork' at row 1
+2022-01-02 17:57:10,331: ERROR: crud_operation_db.py-> create_db_data-> Line 245-> DatabaseError: 1265 (01000): Data truncated for column 'objectEndDate' at row 1
+2022-01-02 17:58:41,546: ERROR: crud_operation_db.py-> create_db_data-> Line 245-> DatabaseError: 1366 (HY000): Incorrect integer value: 'sdfgeg' for column 'isPublicDomain' at row 1
+2022-01-02 18:00:32,948: ERROR: crud_operation_db.py-> create_db_data-> Line 245-> DataError: 1264 (22003): Out of range value for column 'isPublicDomain' at row 1
