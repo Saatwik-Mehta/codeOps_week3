@@ -18,6 +18,7 @@
     function validateFileExt(){
          var fileInput =
                 document.getElementById('myFile');
+
          var filePath = fileInput.value;
          var allowedExtensions = /(\.csv)$/i;
           if (!allowedExtensions.exec(filePath)) {
@@ -25,7 +26,9 @@
                 fileInput.value = '';
                 return false;
             }
-
+          else{
+          document.getElementById('id_your_filename').value = fileInput.files[0].name;
+          }
     }
 </script>
 <script>
